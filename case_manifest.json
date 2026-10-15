@@ -362,6 +362,23 @@
           "review_note": "Distinct along-apparatus overview; one red ball triggers six dominoes and seesaw, blue ball follows an arc into the bucket. Full action and final bucket state inspected.",
           "duration_s": 6.041667,
           "video_sha256": "067d6bd8b8bc30ff49e3e8764c2cfcb2f937a90c898f10e3cec4e0747ddacda1"
+        },
+        {
+          "view_id": "t2v_i001_high_camera_first_frame_v3",
+          "label": "High oblique view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/t2v_i001/t2v_i001_high_camera_first_frame_v3.mp4",
+          "poster": "media/views-20261015/t2v_i001/t2v_i001_high_camera_first_frame_v3.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261016001956-3iaj8",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "authored_image_conditioned_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct high camera keeps full supported apparatus in frame. Red ball initiates six-domino cascade, lever moves and blue ball lands in bucket. Generated mechanism geometry is reconstructed; no calibrated joint or timing claim.",
+          "duration_s": 8.041667,
+          "video_sha256": "15c1b1304bfc7f267b9090f8be8cff2245ee28f2352070e2eef51a940ebd4c03",
+          "authored_camera_condition": "media/views-20261015/t2v_i001/t2v_i001_high_camera_first_frame_v3_condition.jpg"
         }
       ],
       "input_image": null,
@@ -410,6 +427,23 @@
           "review_note": "Distinct frontal camera; white ball contacts wheel, blue ball is released down the ramp into the basket. White ball exits the display after falling, as in the source action.",
           "duration_s": 6.041667,
           "video_sha256": "9d64f21b56bd3d863a87bf1b4fbe18adf0d0df03b57b9b6201e10dc082f693a7"
+        },
+        {
+          "view_id": "i2v_paper_paddle_paddle_supported_reverse_first_frame_v3",
+          "label": "Reverse oblique view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/i2v_paper_paddle/i2v_paper_paddle_paddle_supported_reverse_first_frame_v3.mp4",
+          "poster": "media/views-20261015/i2v_paper_paddle/i2v_paper_paddle_paddle_supported_reverse_first_frame_v3.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261016001956-78gqx",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "authored_image_conditioned_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct reverse oblique camera with all ramp/axle supports present. White ball contacts wheel, wheel turns and releases blue ball, which enters basket. Two balls retained, no quantitative dynamics claim.",
+          "duration_s": 8.041667,
+          "video_sha256": "f861518d3dffa7ce73d078c5830b9680e79970128087fd3164491c28bc82efea",
+          "authored_camera_condition": "media/views-20261015/i2v_paper_paddle/i2v_paper_paddle_paddle_supported_reverse_first_frame_v3_condition.jpg"
         }
       ],
       "comparison": {
@@ -476,6 +510,23 @@
           "duration_s": 5.041667,
           "video_sha256": "ae203ddb2d66430634cc4e44e27a233e0cbbf6be35ce0fc0ccc89550497f2c53",
           "authored_camera_condition": "media/views-20261015/i2v_piq_0157/i2v_piq_0157_teapot_high_conditioned_v2_condition.jpg"
+        },
+        {
+          "view_id": "i2v_piq_0157_teapot_side_first_frame_v3",
+          "label": "Side view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/i2v_piq_0157/i2v_piq_0157_teapot_side_first_frame_v3.mp4",
+          "poster": "media/views-20261015/i2v_piq_0157/i2v_piq_0157_teapot_side_first_frame_v3.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261016001953-6c6o8",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "authored_image_conditioned_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct low side camera. Off-white cloth descends onto stationary colorful teapot, contacts lid and red spout, drapes and settles. Front of pot remains partly visible below cloth.",
+          "duration_s": 6.041667,
+          "video_sha256": "0f93e3008a68f91717c3c82bd69bfe3e334ec5fe33b2fcf0abef8a33d244a10d",
+          "authored_camera_condition": "media/views-20261015/i2v_piq_0157/i2v_piq_0157_teapot_side_first_frame_v3_condition.jpg"
         }
       ],
       "comparison": null,
@@ -625,7 +676,42 @@
       },
       "video": "media/cases-20261015/cases/i2v_piq_0007/final.mp4",
       "poster": "media/cases-20261015/cases/i2v_piq_0007/poster.jpg",
-      "views": [],
+      "views": [
+        {
+          "view_id": "i2v_piq_0007_duck_top_first_frame_v3",
+          "label": "Top view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_top_first_frame_v3.mp4",
+          "poster": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_top_first_frame_v3.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261016001956-tjsyi",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "authored_image_conditioned_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct overhead camera, single pipe/brown ball/yellow duck retained. Contact precedes duck motion; ball and duck separate and settle inside frame.",
+          "duration_s": 6.041667,
+          "video_sha256": "bbcd0a8b31c85d29d0f3c4b3b5aa1310e5bdb8ce4c93bfb3f0334c8c14d44e25",
+          "authored_camera_condition": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_top_first_frame_v3_condition.jpg"
+        },
+        {
+          "view_id": "i2v_piq_0007_duck_side_wide_first_frame_v4",
+          "label": "Side view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_side_wide_first_frame_v4.mp4",
+          "poster": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_side_wide_first_frame_v4.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261016002507-f974b",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "authored_image_conditioned_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Low side oblique camera with ample travel margin. One brown ball contacts one yellow rubber duck; both move and settle fully inside frame, with single pipe retained. Duck identity and table contact preserved.",
+          "duration_s": 6.041667,
+          "video_sha256": "89158040c15a60e17fd9712c6e8f86a0658491ec0981ea16bd25bf4cd788339b",
+          "authored_camera_condition": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_side_wide_first_frame_v4_condition.jpg"
+        }
+      ],
       "input_image": {
         "image": "media/cases-20261015/cases/i2v_piq_0007/input.jpg",
         "kind": "actual_condition_image",
@@ -633,7 +719,7 @@
         "sha256": "89cf91436a8e3779cd94cbfd612cda89dced53a1fa42f11d2e879bd4d84f6ec0"
       },
       "comparison": null,
-      "view_note": "Generated views use independent timing; native cameras are synchronized within their source run."
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
     },
     {
       "case_id": "i2v_piq_0019",
@@ -724,6 +810,23 @@
           "provider_task_id": "cgt-20261015204959-qrmdb",
           "processed_with": "Seedance",
           "poster": "media/cases-20261015-revision/repair_support/views/support_oblique_end_conditioned.jpg"
+        },
+        {
+          "view_id": "repair_support_support_right_first_frame_v3",
+          "label": "Right oblique view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/repair_support/repair_support_support_right_first_frame_v3.mp4",
+          "poster": "media/views-20261015/repair_support/repair_support_support_right_first_frame_v3.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261016001953-pwjcs",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "authored_image_conditioned_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct oblique camera. Yellow middle block leaves five-block stack, upper blue and green blocks fall and settle; red/orange base remains supported. All five blocks remain visible.",
+          "duration_s": 6.041667,
+          "video_sha256": "b832c835f3180b1631eca3692373d51621573e0e541f2f3fd5c2e1f19753bad1",
+          "authored_camera_condition": "media/views-20261015/repair_support/repair_support_support_right_first_frame_v3_condition.jpg"
         }
       ],
       "input_image": null,
@@ -747,7 +850,7 @@
           "qualification": "failure_negative"
         }
       },
-      "view_note": "Generated views use independent timing; native cameras are synchronized within their source run.",
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ.",
       "original": {
         "video": "media/cases-20261015/cases/repair_support/comparison/before.mp4",
         "poster": "media/cases-20261015/cases/repair_support/comparison/before_poster_web2.jpg"
@@ -781,6 +884,23 @@
           "provider_task_id": "cgt-20261015205918-g04ay",
           "processed_with": "Seedance",
           "poster": "media/cases-20261015-revision/repair_glass/views/glass_oblique_grounded.jpg"
+        },
+        {
+          "view_id": "repair_glass_glass_high_right_first_frame_v3",
+          "label": "High oblique view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/repair_glass/repair_glass_glass_high_right_first_frame_v3.mp4",
+          "poster": "media/views-20261015/repair_glass/repair_glass_glass_high_right_first_frame_v3.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261016001953-xzkit",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "authored_image_conditioned_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct high right camera. Steel ball contacts numbered panes 1, 2, 3 in sequence; all three fracture, shards descend and settle on floor.",
+          "duration_s": 8.041667,
+          "video_sha256": "52ab9f2c52ba3eeb0f0cacac5e864bccccfe43cc438eb9baa0d7017a10f4e9d9",
+          "authored_camera_condition": "media/views-20261015/repair_glass/repair_glass_glass_high_right_first_frame_v3_condition.jpg"
         }
       ],
       "input_image": {
@@ -809,7 +929,7 @@
           "qualification": "generated_failed_no_meaningful_repair"
         }
       },
-      "view_note": "Generated views use independent timing; native cameras are synchronized within their source run.",
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ.",
       "original": {
         "video": "media/cases-20261015/cases/repair_glass/comparison/before.mp4",
         "poster": "media/cases-20261015/cases/repair_glass/comparison/before_poster_web2.jpg"
@@ -832,7 +952,42 @@
       },
       "video": "media/cases-20261015/cases/repair_domino/final.mp4",
       "poster": "media/cases-20261015/cases/repair_domino/comparison/after_poster_web2.jpg",
-      "views": [],
+      "views": [
+        {
+          "view_id": "repair_domino_domino_repair_top_first_frame_v3",
+          "label": "Top view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/repair_domino/repair_domino_domino_repair_top_first_frame_v3.mp4",
+          "poster": "media/views-20261015/repair_domino/repair_domino_domino_repair_top_first_frame_v3.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261016001952-w9bf8",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "authored_image_conditioned_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct overhead camera. Continuous outer C cascade travels from upper-right end through left curve to lower-right end; isolated inner group remains upright. Generated layout is reconstructed rather than calibrated.",
+          "duration_s": 10.041667,
+          "video_sha256": "944a7404c83e9215c9b2c8bab4c57816b566f2250837c85cbeb9d250e479f39d",
+          "authored_camera_condition": "media/views-20261015/repair_domino/repair_domino_domino_repair_top_first_frame_v3_condition.jpg"
+        },
+        {
+          "view_id": "repair_domino_domino_repair_opposite_first_frame_v3",
+          "label": "Low oblique view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/repair_domino/repair_domino_domino_repair_opposite_first_frame_v3.mp4",
+          "poster": "media/views-20261015/repair_domino/repair_domino_domino_repair_opposite_first_frame_v3.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261016001952-7n9uc",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "authored_image_conditioned_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct lower oblique camera. Outer C cascade completes to last end and rests as supported fallen pile; isolated inner group remains upright. Some fallen pieces lean on neighboring tiles; generated layout is reconstructed.",
+          "duration_s": 10.041667,
+          "video_sha256": "200c2542670a59c827e92a56a2126fb5690b2126c44ce43db669f348dfc813d3",
+          "authored_camera_condition": "media/views-20261015/repair_domino/repair_domino_domino_repair_opposite_first_frame_v3_condition.jpg"
+        }
+      ],
       "input_image": {
         "image": "media/cases-20261015/cases/repair_domino/inputs/condition_0.png",
         "kind": "source_video_condition_image",
@@ -859,7 +1014,7 @@
           "qualification": "failure_negative"
         }
       },
-      "view_note": "The supplementary mechanism illustration uses a different trigger position and inferred block layout.",
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ.",
       "original": {
         "video": "media/cases-20261015/cases/repair_domino/comparison/before.mp4",
         "poster": "media/cases-20261015/cases/repair_domino/comparison/before_poster_web2.jpg"
