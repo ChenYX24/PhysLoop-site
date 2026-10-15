@@ -28,40 +28,7 @@
       "video": "media/cases-20261015-revision/t2v_paper_billiards/final.mp4",
       "poster": "media/cases-20261015-revision/t2v_paper_billiards/poster.jpg",
       "input_image": null,
-      "views": [
-        {
-          "view_id": "t2v_paper_billiards_front_static_refined",
-          "label": "Front view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_paper_billiards/t2v_paper_billiards_front_static_refined.mp4",
-          "poster": "media/views-20261015/t2v_paper_billiards/t2v_paper_billiards_front_static_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234744-4m7aq",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "More frontal camera; one rack break, scatter and rail motion inspected. Occlusion and pocketing prevent per-frame visible-ball counting; no energy or trajectory validation.",
-          "duration_s": 6.041667,
-          "video_sha256": "c11fa229d4db8bfd4d8ed6c759fc495ac99522df53ddec38d611e6b80b3cc001"
-        },
-        {
-          "view_id": "t2v_paper_billiards_side_static_refined",
-          "label": "Side view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_paper_billiards/t2v_paper_billiards_side_static_refined.mp4",
-          "poster": "media/views-20261015/t2v_paper_billiards/t2v_paper_billiards_side_static_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234744-dbo99",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct lower side camera; rack break, scattering and slowing inspected. Appearance reconstructed; independent generated timing.",
-          "duration_s": 6.041667,
-          "video_sha256": "c90f76d6b0112e70a8a87e794409e877630157c4be4c6e86c724e31f76039402"
-        }
-      ],
+      "views": [],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
         "description": "The direct model introduces extra balls during the break.",
@@ -81,8 +48,7 @@
           "source_sha256": "718592e6a1051e650e3e05f6d9461750f333f12e2a688d607f66b14078e90840",
           "source_case_id": "R016"
         }
-      },
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      }
     },
     {
       "case_id": "t2v_paper_domino",
@@ -105,41 +71,7 @@
       "video": "media/cases-20261015-revision/t2v_paper_domino/final.mp4",
       "poster": "media/cases-20261015-revision/t2v_paper_domino/poster.jpg",
       "input_image": null,
-      "views": [
-        {
-          "view_id": "t2v_paper_domino_side_static_refined",
-          "label": "Side view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_paper_domino/t2v_paper_domino_side_static_refined.mp4",
-          "poster": "media/views-20261015/t2v_paper_domino/t2v_paper_domino_side_static_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234745-s9b5d",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct side camera; connected domino chain topples and tips the terminal ornament. Terminal container appearance is reconstructed rather than mesh-identical to the main view.",
-          "duration_s": 6.041667,
-          "video_sha256": "1ec06b2ff86f621e474e10891a50887ea438dfb1c895ca5db2db303031760348"
-        },
-        {
-          "view_id": "t2v_paper_domino_domino_paper_top_conditioned_v2",
-          "label": "High view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_paper_domino/t2v_paper_domino_domino_paper_top_conditioned_v2.mp4",
-          "poster": "media/views-20261015/t2v_paper_domino/t2v_paper_domino_domino_paper_top_conditioned_v2.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016000726-4xmno",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "reference_video_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Clearly distinct high overhead camera. Single S-shaped chain tips in sequence and contacts brown bottle, which falls and settles. Reconstructed independent camera shot.",
-          "duration_s": 6.041667,
-          "video_sha256": "9fbfbe9edede9f6481a6f496fef31773948eab26cc8b73bc4bf6ea49b5b7dae6",
-          "authored_camera_condition": "media/views-20261015/t2v_paper_domino/t2v_paper_domino_domino_paper_top_conditioned_v2_condition.jpg"
-        }
-      ],
+      "views": [],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
         "description": "The direct model changes the requested S-shaped chain into a straight layout.",
@@ -159,8 +91,7 @@
           "source_sha256": "c90d98b4ed16f2dbadc845bfafb8012ec3e86d1c7c50748c4f9dab80f3cda4c5",
           "source_case_id": "R014"
         }
-      },
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      }
     },
     {
       "case_id": "t2v_wave_connected",
@@ -179,43 +110,9 @@
       },
       "video": "media/cases-20261015/cases/t2v_wave_connected/final.mp4",
       "poster": "media/cases-20261015/cases/t2v_wave_connected/poster.jpg",
-      "views": [
-        {
-          "view_id": "t2v_wave_connected_front_static_camera_v2",
-          "label": "Front view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_wave_connected/t2v_wave_connected_front_static_camera_v2.mp4",
-          "poster": "media/views-20261015/t2v_wave_connected/t2v_wave_connected_front_static_camera_v2.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016000147-lejx6",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Native front-camera refinement; fifteen tethered pendulums swing in a phase wave. Frame/material/room appearance reconstructed, without a synchronized native-output claim.",
-          "duration_s": 12.041667,
-          "video_sha256": "fdcf46a00660b40133f351f8b2b18ddfcd13ce58235ad93b766f4442080fb73f"
-        },
-        {
-          "view_id": "t2v_wave_connected_top_down_camera_v2",
-          "label": "Top view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_wave_connected/t2v_wave_connected_top_down_camera_v2.mp4",
-          "poster": "media/views-20261015/t2v_wave_connected/t2v_wave_connected_top_down_camera_v2.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016000148-80d9h",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct elevated/top native-camera refinement; phase progression and attachment continuity inspected. Beam occlusion is visible; materials and support-frame appearance are reconstructed.",
-          "duration_s": 12.041667,
-          "video_sha256": "1da2e29a1b5eac62f4536500a2df81e8cf6cb53e220b79f98c7e544abf611d12"
-        }
-      ],
+      "views": [],
       "input_image": null,
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "comparison": null
     },
     {
       "case_id": "t2v_box_balance",
@@ -234,43 +131,9 @@
       },
       "video": "media/cases-20261015/cases/t2v_box_balance/final.mp4",
       "poster": "media/cases-20261015/cases/t2v_box_balance/poster.jpg",
-      "views": [
-        {
-          "view_id": "t2v_box_balance_front_static_refined",
-          "label": "Front view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_box_balance/t2v_box_balance_front_static_refined.mp4",
-          "poster": "media/views-20261015/t2v_box_balance/t2v_box_balance_front_static_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234722-vmmk5",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Front camera; five aligned cartons remain upright while five offset cartons tip, fall and settle. Support/background appearance reconstructed.",
-          "duration_s": 6.041667,
-          "video_sha256": "152f5ffd72866a89b0d21413ca888c5eb47d3cf5793a94205eadbe33b3362ae3"
-        },
-        {
-          "view_id": "t2v_box_balance_side_static_refined",
-          "label": "Side view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_box_balance/t2v_box_balance_side_static_refined.mp4",
-          "poster": "media/views-20261015/t2v_box_balance/t2v_box_balance_side_static_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234723-tm63g",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Side camera shows the platform and depth; aligned stack stable, offset stack collapses and settles. Generated material dynamics not quantitatively checked.",
-          "duration_s": 6.041667,
-          "video_sha256": "60158694ca65069c1323e197b0f78266b0f6fb24bc0dfadfe122c13287c256b0"
-        }
-      ],
+      "views": [],
       "input_image": null,
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "comparison": null
     },
     {
       "case_id": "t2v_c012",
@@ -290,43 +153,9 @@
       },
       "video": "media/cases-20261015/cases/t2v_c012/final.mp4",
       "poster": "media/cases-20261015/cases/t2v_c012/poster.jpg",
-      "views": [
-        {
-          "view_id": "t2v_c012_side_static_camera_v2",
-          "label": "Side view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_c012/t2v_c012_side_static_camera_v2.mp4",
-          "poster": "media/views-20261015/t2v_c012/t2v_c012_side_static_camera_v2.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016000147-eiqst",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Oblique source-camera refinement; the white mug is present initially, cloth descends, metal support is withdrawn, stack collapses and cloth settles. Mug becomes occluded by opaque cloth.",
-          "duration_s": 6.041667,
-          "video_sha256": "2e7b635e70849b7854525dc56c09eba413df9ea297b4b9ce919f49dcab2dddf8"
-        },
-        {
-          "view_id": "t2v_c012_overview_camera_v2",
-          "label": "Overview",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_c012/t2v_c012_overview_camera_v2.mp4",
-          "poster": "media/views-20261015/t2v_c012/t2v_c012_overview_camera_v2.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016000148-xbw6y",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Wide source-camera refinement; intact initial mug/block/base state, base removal and ensuing covered collapse inspected. Mug is naturally hidden after the cloth settles.",
-          "duration_s": 6.041667,
-          "video_sha256": "439654f1d92812281a1718ed30fd70af7ec9749a33ad718bd1ae5f22e773bce2"
-        }
-      ],
+      "views": [],
       "input_image": null,
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "comparison": null
     },
     {
       "case_id": "t2v_i001",
@@ -346,44 +175,9 @@
       },
       "video": "media/cases-20261015/cases/t2v_i001/final.mp4",
       "poster": "media/cases-20261015/cases/t2v_i001/poster.jpg",
-      "views": [
-        {
-          "view_id": "t2v_i001_overview_camera_v2",
-          "label": "Overview",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_i001/t2v_i001_overview_camera_v2.mp4",
-          "poster": "media/views-20261015/t2v_i001/t2v_i001_overview_camera_v2.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016000147-1plfd",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct along-apparatus overview; one red ball triggers six dominoes and seesaw, blue ball follows an arc into the bucket. Full action and final bucket state inspected.",
-          "duration_s": 6.041667,
-          "video_sha256": "067d6bd8b8bc30ff49e3e8764c2cfcb2f937a90c898f10e3cec4e0747ddacda1"
-        },
-        {
-          "view_id": "t2v_i001_high_camera_first_frame_v3",
-          "label": "High oblique view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/t2v_i001/t2v_i001_high_camera_first_frame_v3.mp4",
-          "poster": "media/views-20261015/t2v_i001/t2v_i001_high_camera_first_frame_v3.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016001956-3iaj8",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "authored_image_conditioned_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct high camera keeps full supported apparatus in frame. Red ball initiates six-domino cascade, lever moves and blue ball lands in bucket. Generated mechanism geometry is reconstructed; no calibrated joint or timing claim.",
-          "duration_s": 8.041667,
-          "video_sha256": "15c1b1304bfc7f267b9090f8be8cff2245ee28f2352070e2eef51a940ebd4c03",
-          "authored_camera_condition": "media/views-20261015/t2v_i001/t2v_i001_high_camera_first_frame_v3_condition.jpg"
-        }
-      ],
+      "views": [],
       "input_image": null,
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "comparison": null
     },
     {
       "case_id": "i2v_paper_paddle",
@@ -411,41 +205,7 @@
         "role": "Original image-conditioned task input",
         "sha256": "3fc5a3eee2172397a0fd61cce37c8e584fcc358f399e0a56b21dd7995c95ad4b"
       },
-      "views": [
-        {
-          "view_id": "i2v_paper_paddle_front_static_refined",
-          "label": "Front view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/i2v_paper_paddle/i2v_paper_paddle_front_static_refined.mp4",
-          "poster": "media/views-20261015/i2v_paper_paddle/i2v_paper_paddle_front_static_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234745-xc6bw",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct frontal camera; white ball contacts wheel, blue ball is released down the ramp into the basket. White ball exits the display after falling, as in the source action.",
-          "duration_s": 6.041667,
-          "video_sha256": "9d64f21b56bd3d863a87bf1b4fbe18adf0d0df03b57b9b6201e10dc082f693a7"
-        },
-        {
-          "view_id": "i2v_paper_paddle_paddle_supported_reverse_first_frame_v3",
-          "label": "Reverse oblique view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/i2v_paper_paddle/i2v_paper_paddle_paddle_supported_reverse_first_frame_v3.mp4",
-          "poster": "media/views-20261015/i2v_paper_paddle/i2v_paper_paddle_paddle_supported_reverse_first_frame_v3.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016001956-78gqx",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "authored_image_conditioned_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct reverse oblique camera with all ramp/axle supports present. White ball contacts wheel, wheel turns and releases blue ball, which enters basket. Two balls retained, no quantitative dynamics claim.",
-          "duration_s": 8.041667,
-          "video_sha256": "f861518d3dffa7ce73d078c5830b9680e79970128087fd3164491c28bc82efea",
-          "authored_camera_condition": "media/views-20261015/i2v_paper_paddle/i2v_paper_paddle_paddle_supported_reverse_first_frame_v3_condition.jpg"
-        }
-      ],
+      "views": [],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
         "description": "The direct model introduces an extra blue ball in the mechanism.",
@@ -465,8 +225,7 @@
           "source_sha256": "f7af720f1614aa7bf7927f170eaf02f8fbbf852e16faf50baf98fd8ee6e9accb",
           "source_case_id": "I011"
         }
-      },
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      }
     },
     {
       "case_id": "i2v_piq_0157",
@@ -493,44 +252,8 @@
         "role": "Original Physics-IQ switch image",
         "sha256": "e9a48ce2fa8e01b79b2617c3b55b919da9f591e2ed55e49191b2ebbfa6334395"
       },
-      "views": [
-        {
-          "view_id": "i2v_piq_0157_teapot_high_conditioned_v2",
-          "label": "High oblique view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/i2v_piq_0157/i2v_piq_0157_teapot_high_conditioned_v2.mp4",
-          "poster": "media/views-20261015/i2v_piq_0157/i2v_piq_0157_teapot_high_conditioned_v2.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016000727-xjiym",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "reference_video_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct high camera exposes green lid and red spout. One cloth descends, covers stationary teapot and settles.",
-          "duration_s": 5.041667,
-          "video_sha256": "ae203ddb2d66430634cc4e44e27a233e0cbbf6be35ce0fc0ccc89550497f2c53",
-          "authored_camera_condition": "media/views-20261015/i2v_piq_0157/i2v_piq_0157_teapot_high_conditioned_v2_condition.jpg"
-        },
-        {
-          "view_id": "i2v_piq_0157_teapot_side_first_frame_v3",
-          "label": "Side view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/i2v_piq_0157/i2v_piq_0157_teapot_side_first_frame_v3.mp4",
-          "poster": "media/views-20261015/i2v_piq_0157/i2v_piq_0157_teapot_side_first_frame_v3.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016001953-6c6o8",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "authored_image_conditioned_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct low side camera. Off-white cloth descends onto stationary colorful teapot, contacts lid and red spout, drapes and settles. Front of pot remains partly visible below cloth.",
-          "duration_s": 6.041667,
-          "video_sha256": "0f93e3008a68f91717c3c82bd69bfe3e334ec5fe33b2fcf0abef8a33d244a10d",
-          "authored_camera_condition": "media/views-20261015/i2v_piq_0157/i2v_piq_0157_teapot_side_first_frame_v3_condition.jpg"
-        }
-      ],
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "views": [],
+      "comparison": null
     },
     {
       "case_id": "i2v_piq_0064",
@@ -557,42 +280,8 @@
         "role": "Original Physics-IQ switch image",
         "sha256": "ee017fc0502b67e83b8a3a804ea956fc29bf3aaef9b7d2fb02c37dcc0eb1597e"
       },
-      "views": [
-        {
-          "view_id": "i2v_piq_0064_lateral_refined",
-          "label": "Front view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/i2v_piq_0064/i2v_piq_0064_lateral_refined.mp4",
-          "poster": "media/views-20261015/i2v_piq_0064/i2v_piq_0064_lateral_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234756-8ypbh",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "reference_video_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "New frontal viewpoint relative to the angled main view; one dispenser, one receiving glass and connected downward stream inspected. Liquid volume not measured.",
-          "duration_s": 5.041667,
-          "video_sha256": "61b014612157e6f825fc2e93a7b1d6aac8de64276450fa479ae77134c57d898b"
-        },
-        {
-          "view_id": "i2v_piq_0064_high_oblique_refined",
-          "label": "High oblique view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/i2v_piq_0064/i2v_piq_0064_high_oblique_refined.mp4",
-          "poster": "media/views-20261015/i2v_piq_0064/i2v_piq_0064_high_oblique_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234756-inqu0",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "reference_video_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct high oblique camera; connected pour and rising receiving liquid surface visible. Liquid volume not quantitatively validated.",
-          "duration_s": 6.041667,
-          "video_sha256": "5eea3baf51b78747f750dba22671818fedd29444b5596bbbceb791cb7c4be4ed"
-        }
-      ],
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "views": [],
+      "comparison": null
     },
     {
       "case_id": "i2v_piq_0031",
@@ -619,44 +308,8 @@
         "role": "Original Physics-IQ switch image",
         "sha256": "7bb37bd4fedd4013f3d137a2f9edcbb440e456c7a617a1b6c2fea4db525566de"
       },
-      "views": [
-        {
-          "view_id": "i2v_piq_0031_lateral_conditioned_v2",
-          "label": "Side view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/i2v_piq_0031/i2v_piq_0031_lateral_conditioned_v2.mp4",
-          "poster": "media/views-20261015/i2v_piq_0031/i2v_piq_0031_lateral_conditioned_v2.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016000159-70vpm",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "reference_video_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct low oblique table camera. Two colored balls meet and separate with two pipes retained; full action in frame.",
-          "duration_s": 6.041667,
-          "video_sha256": "b86cbc3cd3b9269f69fadb82d6afd841b85918ce2dea9ed0d284e888a1526ca7",
-          "authored_camera_condition": "media/views-20261015/i2v_piq_0031/i2v_piq_0031_lateral_conditioned_v2_condition.png"
-        },
-        {
-          "view_id": "i2v_piq_0031_overhead_conditioned_v2",
-          "label": "Top view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/i2v_piq_0031/i2v_piq_0031_overhead_conditioned_v2.mp4",
-          "poster": "media/views-20261015/i2v_piq_0031/i2v_piq_0031_overhead_conditioned_v2.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016000159-elzq1",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "reference_video_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "True overhead camera; two colored balls contact and separate, with pipes and tabletop path retained.",
-          "duration_s": 5.041667,
-          "video_sha256": "fd9e9e9eac1d96f21678e901700c0435e11e784425fdd942d14d2935bfc17cd1",
-          "authored_camera_condition": "media/views-20261015/i2v_piq_0031/i2v_piq_0031_overhead_conditioned_v2_condition.png"
-        }
-      ],
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "views": [],
+      "comparison": null
     },
     {
       "case_id": "i2v_piq_0007",
@@ -676,50 +329,14 @@
       },
       "video": "media/cases-20261015/cases/i2v_piq_0007/final.mp4",
       "poster": "media/cases-20261015/cases/i2v_piq_0007/poster.jpg",
-      "views": [
-        {
-          "view_id": "i2v_piq_0007_duck_top_first_frame_v3",
-          "label": "Top view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_top_first_frame_v3.mp4",
-          "poster": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_top_first_frame_v3.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016001956-tjsyi",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "authored_image_conditioned_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct overhead camera, single pipe/brown ball/yellow duck retained. Contact precedes duck motion; ball and duck separate and settle inside frame.",
-          "duration_s": 6.041667,
-          "video_sha256": "bbcd0a8b31c85d29d0f3c4b3b5aa1310e5bdb8ce4c93bfb3f0334c8c14d44e25",
-          "authored_camera_condition": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_top_first_frame_v3_condition.jpg"
-        },
-        {
-          "view_id": "i2v_piq_0007_duck_side_wide_first_frame_v4",
-          "label": "Side view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_side_wide_first_frame_v4.mp4",
-          "poster": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_side_wide_first_frame_v4.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016002507-f974b",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "authored_image_conditioned_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Low side oblique camera with ample travel margin. One brown ball contacts one yellow rubber duck; both move and settle fully inside frame, with single pipe retained. Duck identity and table contact preserved.",
-          "duration_s": 6.041667,
-          "video_sha256": "89158040c15a60e17fd9712c6e8f86a0658491ec0981ea16bd25bf4cd788339b",
-          "authored_camera_condition": "media/views-20261015/i2v_piq_0007/i2v_piq_0007_duck_side_wide_first_frame_v4_condition.jpg"
-        }
-      ],
+      "views": [],
       "input_image": {
         "image": "media/cases-20261015/cases/i2v_piq_0007/input.jpg",
         "kind": "actual_condition_image",
         "role": "Original switch frame; image supplied upstream and used for appearance restoration.",
         "sha256": "89cf91436a8e3779cd94cbfd612cda89dced53a1fa42f11d2e879bd4d84f6ec0"
       },
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "comparison": null
     },
     {
       "case_id": "i2v_piq_0019",
@@ -739,48 +356,14 @@
       },
       "video": "media/cases-20261015/cases/i2v_piq_0019/final.mp4",
       "poster": "media/cases-20261015/cases/i2v_piq_0019/poster.jpg",
-      "views": [
-        {
-          "view_id": "i2v_piq_0019_front_static_refined",
-          "label": "Front view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/i2v_piq_0019/i2v_piq_0019_front_static_refined.mp4",
-          "poster": "media/views-20261015/i2v_piq_0019/i2v_piq_0019_front_static_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234735-medyv",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Wider frontal view; one ball approaches, climbs, reverses and rolls back down the supported ramp.",
-          "duration_s": 5.041667,
-          "video_sha256": "ce56415cea8a57185afbbe4b4738fe2366699db47421474c90cebd0d97f5d07a"
-        },
-        {
-          "view_id": "i2v_piq_0019_event_closeup_refined",
-          "label": "Detail view",
-          "kind": "generated_detail",
-          "video": "media/views-20261015/i2v_piq_0019/i2v_piq_0019_event_closeup_refined.mp4",
-          "poster": "media/views-20261015/i2v_piq_0019/i2v_piq_0019_event_closeup_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234736-bg3oo",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "native_camera_refinement",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Closer high view; one ball climbs and reverses on the same supported ramp. Not synchronized frame by frame with the main view.",
-          "duration_s": 5.041667,
-          "video_sha256": "2a58b06fca3b0a4ccb2cec7dee6c61706d482df7b0c106fd9cd5ee413f3ae059"
-        }
-      ],
+      "views": [],
       "input_image": {
         "image": "media/cases-20261015/cases/i2v_piq_0019/input.jpg",
         "kind": "actual_condition_image",
         "role": "Original switch frame; image supplied upstream and used for appearance restoration.",
         "sha256": "6e08ef103b05fa466b5f9935d12141584bec8a87a63f7f72199470ab024fcbfb"
       },
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "comparison": null
     },
     {
       "case_id": "repair_support",
@@ -799,36 +382,7 @@
       },
       "video": "media/cases-20261015/cases/repair_support/final.mp4",
       "poster": "media/cases-20261015/cases/repair_support/comparison/after_poster_web2.jpg",
-      "views": [
-        {
-          "view_id": "support_oblique_end_conditioned",
-          "label": "Oblique view",
-          "kind": "generated_alternate",
-          "review_note": "Five blocks retained; upper pair tip and fall. Synthetic first and end images are authored conditions.",
-          "video": "media/cases-20261015/cases/repair_support/views/support_oblique_end_conditioned.mp4",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015204959-qrmdb",
-          "processed_with": "Seedance",
-          "poster": "media/cases-20261015-revision/repair_support/views/support_oblique_end_conditioned.jpg"
-        },
-        {
-          "view_id": "repair_support_support_right_first_frame_v3",
-          "label": "Right oblique view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/repair_support/repair_support_support_right_first_frame_v3.mp4",
-          "poster": "media/views-20261015/repair_support/repair_support_support_right_first_frame_v3.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016001953-pwjcs",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "authored_image_conditioned_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct oblique camera. Yellow middle block leaves five-block stack, upper blue and green blocks fall and settle; red/orange base remains supported. All five blocks remain visible.",
-          "duration_s": 6.041667,
-          "video_sha256": "b832c835f3180b1631eca3692373d51621573e0e541f2f3fd5c2e1f19753bad1",
-          "authored_camera_condition": "media/views-20261015/repair_support/repair_support_support_right_first_frame_v3_condition.jpg"
-        }
-      ],
+      "views": [],
       "input_image": null,
       "comparison": {
         "title": "Direct model repair vs. PhysLoop",
@@ -850,7 +404,6 @@
           "qualification": "failure_negative"
         }
       },
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ.",
       "original": {
         "video": "media/cases-20261015/cases/repair_support/comparison/before.mp4",
         "poster": "media/cases-20261015/cases/repair_support/comparison/before_poster_web2.jpg"
@@ -873,36 +426,7 @@
       },
       "video": "media/cases-20261015/cases/repair_glass/final.mp4",
       "poster": "media/cases-20261015/cases/repair_glass/comparison/after_poster_web2.jpg",
-      "views": [
-        {
-          "view_id": "glass_oblique_grounded",
-          "label": "Oblique view",
-          "kind": "generated_alternate",
-          "review_note": "Distinct oblique view; three ordered ball contacts and subsequent supported shard clusters inspected, including 2.65–3.35s dense frames. Fractured upper pane sections persist briefly before falling. Ball continues rolling at the end; no measured energy or final-rest claim. First and end images are authored synthetic conditions.",
-          "video": "media/cases-20261015/cases/repair_glass/views/glass_oblique_grounded.mp4",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015205918-g04ay",
-          "processed_with": "Seedance",
-          "poster": "media/cases-20261015-revision/repair_glass/views/glass_oblique_grounded.jpg"
-        },
-        {
-          "view_id": "repair_glass_glass_high_right_first_frame_v3",
-          "label": "High oblique view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/repair_glass/repair_glass_glass_high_right_first_frame_v3.mp4",
-          "poster": "media/views-20261015/repair_glass/repair_glass_glass_high_right_first_frame_v3.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016001953-xzkit",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "authored_image_conditioned_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct high right camera. Steel ball contacts numbered panes 1, 2, 3 in sequence; all three fracture, shards descend and settle on floor.",
-          "duration_s": 8.041667,
-          "video_sha256": "52ab9f2c52ba3eeb0f0cacac5e864bccccfe43cc438eb9baa0d7017a10f4e9d9",
-          "authored_camera_condition": "media/views-20261015/repair_glass/repair_glass_glass_high_right_first_frame_v3_condition.jpg"
-        }
-      ],
+      "views": [],
       "input_image": {
         "image": "media/cases-20261015/cases/repair_glass/inputs/condition_1.png",
         "kind": "actual_source_reference_image",
@@ -929,7 +453,6 @@
           "qualification": "generated_failed_no_meaningful_repair"
         }
       },
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ.",
       "original": {
         "video": "media/cases-20261015/cases/repair_glass/comparison/before.mp4",
         "poster": "media/cases-20261015/cases/repair_glass/comparison/before_poster_web2.jpg"
@@ -952,42 +475,7 @@
       },
       "video": "media/cases-20261015/cases/repair_domino/final.mp4",
       "poster": "media/cases-20261015/cases/repair_domino/comparison/after_poster_web2.jpg",
-      "views": [
-        {
-          "view_id": "repair_domino_domino_repair_top_first_frame_v3",
-          "label": "Top view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/repair_domino/repair_domino_domino_repair_top_first_frame_v3.mp4",
-          "poster": "media/views-20261015/repair_domino/repair_domino_domino_repair_top_first_frame_v3.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016001952-w9bf8",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "authored_image_conditioned_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct overhead camera. Continuous outer C cascade travels from upper-right end through left curve to lower-right end; isolated inner group remains upright. Generated layout is reconstructed rather than calibrated.",
-          "duration_s": 10.041667,
-          "video_sha256": "944a7404c83e9215c9b2c8bab4c57816b566f2250837c85cbeb9d250e479f39d",
-          "authored_camera_condition": "media/views-20261015/repair_domino/repair_domino_domino_repair_top_first_frame_v3_condition.jpg"
-        },
-        {
-          "view_id": "repair_domino_domino_repair_opposite_first_frame_v3",
-          "label": "Low oblique view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/repair_domino/repair_domino_domino_repair_opposite_first_frame_v3.mp4",
-          "poster": "media/views-20261015/repair_domino/repair_domino_domino_repair_opposite_first_frame_v3.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261016001952-7n9uc",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "authored_image_conditioned_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct lower oblique camera. Outer C cascade completes to last end and rests as supported fallen pile; isolated inner group remains upright. Some fallen pieces lean on neighboring tiles; generated layout is reconstructed.",
-          "duration_s": 10.041667,
-          "video_sha256": "200c2542670a59c827e92a56a2126fb5690b2126c44ce43db669f348dfc813d3",
-          "authored_camera_condition": "media/views-20261015/repair_domino/repair_domino_domino_repair_opposite_first_frame_v3_condition.jpg"
-        }
-      ],
+      "views": [],
       "input_image": {
         "image": "media/cases-20261015/cases/repair_domino/inputs/condition_0.png",
         "kind": "source_video_condition_image",
@@ -1014,7 +502,6 @@
           "qualification": "failure_negative"
         }
       },
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ.",
       "original": {
         "video": "media/cases-20261015/cases/repair_domino/comparison/before.mp4",
         "poster": "media/cases-20261015/cases/repair_domino/comparison/before_poster_web2.jpg"
@@ -1036,38 +523,9 @@
       },
       "video": "media/cases-20261015/cases/robot_parcel_sort/final.mp4",
       "poster": "media/cases-20261015/cases/robot_parcel_sort/poster.jpg",
-      "views": [
-        {
-          "view_id": "synth_view_robot_parcel",
-          "label": "Oblique view",
-          "kind": "generated_alternate",
-          "review_note": "Three cartons retained; distinct camera. Robot geometry is inferred.",
-          "video": "media/cases-20261015/cases/robot_parcel_sort/views/synth_view_robot_parcel.mp4",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015203957-j5e9f",
-          "processed_with": "Seedance",
-          "poster": "media/cases-20261015-revision/robot_parcel_sort/views/synth_view_robot_parcel.jpg"
-        },
-        {
-          "view_id": "robot_parcel_sort_side_refined",
-          "label": "Side view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/robot_parcel_sort/robot_parcel_sort_side_refined.mp4",
-          "poster": "media/views-20261015/robot_parcel_sort/robot_parcel_sort_side_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234515-4x0qa",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "reference_video_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct lower camera; exactly three cartons remain, red-labelled carton is grasped, lifted, placed in green tray and released; other cartons stay put.",
-          "duration_s": 12.041667,
-          "video_sha256": "128c65acf2261074669fca6a08730816f5cb2ca2e9a4fde6b9f08abc3da35b6d"
-        }
-      ],
+      "views": [],
       "input_image": null,
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "comparison": null
     },
     {
       "case_id": "robot_water_pour",
@@ -1085,43 +543,14 @@
       },
       "video": "media/cases-20261015/cases/robot_water_pour/final.mp4",
       "poster": "media/cases-20261015/cases/robot_water_pour/poster.jpg",
-      "views": [
-        {
-          "view_id": "water_oblique_solid_mugs",
-          "label": "Oblique view",
-          "kind": "generated_alternate",
-          "review_note": "Distinct oblique view; two single-piece mugs retained, grasp/lift/pour/upright/return/release visible. No square base detaches; transparent stream reaches the receiving mug. Generated liquid volume and grasp forces are unmeasured.",
-          "video": "media/cases-20261015/cases/robot_water_pour/views/water_oblique_solid_mugs.mp4",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015210028-9n44a",
-          "processed_with": "Seedance",
-          "poster": "media/cases-20261015-revision/robot_water_pour/views/water_oblique_solid_mugs.jpg"
-        },
-        {
-          "view_id": "robot_water_pour_lateral_refined",
-          "label": "Side view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/robot_water_pour/robot_water_pour_lateral_refined.mp4",
-          "poster": "media/views-20261015/robot_water_pour/robot_water_pour_lateral_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234808-zt14g",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "reference_video_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "Distinct camera; two opaque mugs retained, grasp/lift/pour/upright/withdraw sequence inspected. Mug is held at the end; no force, liquid-volume or policy validation.",
-          "duration_s": 12.041667,
-          "video_sha256": "5c415910d1f014c4c0d7e03ddc5bf008bf5d52f4f0853fd3f415763e31e2a7d9"
-        }
-      ],
+      "views": [],
       "input_image": {
         "image": "media/cases-20261015/cases/robot_water_pour/input.png",
         "kind": "actual_condition_image",
         "role": "Actual first-frame input used by the accepted revision.",
         "sha256": "968818e194c4c743af2d7e721dff73f37aff3f6411fee9cbc17cdb4ef81dac27"
       },
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "comparison": null
     },
     {
       "case_id": "robot_towel_fold",
@@ -1139,43 +568,14 @@
       },
       "video": "media/cases-20261015/cases/robot_towel_fold/final.mp4",
       "poster": "media/cases-20261015/cases/robot_towel_fold/poster.jpg",
-      "views": [
-        {
-          "view_id": "robot_towel_front_opaque",
-          "label": "Front view",
-          "kind": "generated_alternate",
-          "review_note": "Opaque cloth, full fold and release retained. Robot geometry is inferred.",
-          "video": "media/cases-20261015/cases/robot_towel_fold/views/robot_towel_front_opaque.mp4",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015204948-rfg6a",
-          "processed_with": "Seedance",
-          "poster": "media/cases-20261015-revision/robot_towel_fold/views/robot_towel_front_opaque.jpg"
-        },
-        {
-          "view_id": "robot_towel_fold_lateral_refined",
-          "label": "Side view",
-          "kind": "generated_alternate",
-          "video": "media/views-20261015/robot_towel_fold/robot_towel_fold_lateral_refined.mp4",
-          "poster": "media/views-20261015/robot_towel_fold/robot_towel_fold_lateral_refined.jpg",
-          "synchronized_group": null,
-          "provider_task_id": "cgt-20261015234812-6svrr",
-          "processed_with": "Seedance",
-          "refinement_model": "doubao-seedance-2-5-260628",
-          "source_kind": "reference_video_view_synthesis",
-          "review_status": "keyframes_reviewed",
-          "review_note": "New lower oblique camera; both grippers enter, grasp, lift, fold and release one opaque pink towel. Independent generated geometry and timing.",
-          "duration_s": 8.041667,
-          "video_sha256": "9e96f800d24bf634e2cb57453807eb44df1569e3826fc8f97c7a0f9411b35d13"
-        }
-      ],
+      "views": [],
       "input_image": {
         "image": "media/cases-20261015/cases/robot_towel_fold/input.png",
         "kind": "generated_condition_image",
         "role": "Actual generated starting image used for this video; derived from the existing towel scene with a dense opaque-cotton material revision.",
         "sha256": "5a6584e2a282e7fd91c0f0d831233bec3ea374b309ba064176b1b760086c2f2d"
       },
-      "comparison": null,
-      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
+      "comparison": null
     }
   ]
 }
