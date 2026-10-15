@@ -28,7 +28,40 @@
       "video": "media/cases-20261015-revision/t2v_paper_billiards/final.mp4",
       "poster": "media/cases-20261015-revision/t2v_paper_billiards/poster.jpg",
       "input_image": null,
-      "views": [],
+      "views": [
+        {
+          "view_id": "t2v_paper_billiards_front_static_refined",
+          "label": "Front view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/t2v_paper_billiards/t2v_paper_billiards_front_static_refined.mp4",
+          "poster": "media/views-20261015/t2v_paper_billiards/t2v_paper_billiards_front_static_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234744-4m7aq",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "native_camera_refinement",
+          "review_status": "keyframes_reviewed",
+          "review_note": "More frontal camera; one rack break, scatter and rail motion inspected. Occlusion and pocketing prevent per-frame visible-ball counting; no energy or trajectory validation.",
+          "duration_s": 6.041667,
+          "video_sha256": "c11fa229d4db8bfd4d8ed6c759fc495ac99522df53ddec38d611e6b80b3cc001"
+        },
+        {
+          "view_id": "t2v_paper_billiards_side_static_refined",
+          "label": "Side view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/t2v_paper_billiards/t2v_paper_billiards_side_static_refined.mp4",
+          "poster": "media/views-20261015/t2v_paper_billiards/t2v_paper_billiards_side_static_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234744-dbo99",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "native_camera_refinement",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct lower side camera; rack break, scattering and slowing inspected. Appearance reconstructed; independent generated timing.",
+          "duration_s": 6.041667,
+          "video_sha256": "c90f76d6b0112e70a8a87e794409e877630157c4be4c6e86c724e31f76039402"
+        }
+      ],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
         "description": "The direct model introduces extra balls during the break.",
@@ -49,7 +82,7 @@
           "source_case_id": "R016"
         }
       },
-      "view_note": "Seedance-refined presentation video. Independent generations have independent timelines; qualitative example."
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
     },
     {
       "case_id": "t2v_paper_domino",
@@ -72,7 +105,24 @@
       "video": "media/cases-20261015-revision/t2v_paper_domino/final.mp4",
       "poster": "media/cases-20261015-revision/t2v_paper_domino/poster.jpg",
       "input_image": null,
-      "views": [],
+      "views": [
+        {
+          "view_id": "t2v_paper_domino_side_static_refined",
+          "label": "Side view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/t2v_paper_domino/t2v_paper_domino_side_static_refined.mp4",
+          "poster": "media/views-20261015/t2v_paper_domino/t2v_paper_domino_side_static_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234745-s9b5d",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "native_camera_refinement",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct side camera; connected domino chain topples and tips the terminal ornament. Terminal container appearance is reconstructed rather than mesh-identical to the main view.",
+          "duration_s": 6.041667,
+          "video_sha256": "1ec06b2ff86f621e474e10891a50887ea438dfb1c895ca5db2db303031760348"
+        }
+      ],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
         "description": "The direct model changes the requested S-shaped chain into a straight layout.",
@@ -93,7 +143,7 @@
           "source_case_id": "R014"
         }
       },
-      "view_note": "Seedance-refined presentation video. Independent generations have independent timelines; qualitative example."
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
     },
     {
       "case_id": "t2v_wave_connected",
@@ -134,10 +184,43 @@
       },
       "video": "media/cases-20261015/cases/t2v_box_balance/final.mp4",
       "poster": "media/cases-20261015/cases/t2v_box_balance/poster.jpg",
-      "views": [],
+      "views": [
+        {
+          "view_id": "t2v_box_balance_front_static_refined",
+          "label": "Front view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/t2v_box_balance/t2v_box_balance_front_static_refined.mp4",
+          "poster": "media/views-20261015/t2v_box_balance/t2v_box_balance_front_static_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234722-vmmk5",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "native_camera_refinement",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Front camera; five aligned cartons remain upright while five offset cartons tip, fall and settle. Support/background appearance reconstructed.",
+          "duration_s": 6.041667,
+          "video_sha256": "152f5ffd72866a89b0d21413ca888c5eb47d3cf5793a94205eadbe33b3362ae3"
+        },
+        {
+          "view_id": "t2v_box_balance_side_static_refined",
+          "label": "Side view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/t2v_box_balance/t2v_box_balance_side_static_refined.mp4",
+          "poster": "media/views-20261015/t2v_box_balance/t2v_box_balance_side_static_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234723-tm63g",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "native_camera_refinement",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Side camera shows the platform and depth; aligned stack stable, offset stack collapses and settles. Generated material dynamics not quantitatively checked.",
+          "duration_s": 6.041667,
+          "video_sha256": "60158694ca65069c1323e197b0f78266b0f6fb24bc0dfadfe122c13287c256b0"
+        }
+      ],
       "input_image": null,
       "comparison": null,
-      "view_note": "Generated views use independent timing; native cameras are synchronized within their source run."
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
     },
     {
       "case_id": "t2v_c012",
@@ -211,7 +294,24 @@
         "role": "Original image-conditioned task input",
         "sha256": "3fc5a3eee2172397a0fd61cce37c8e584fcc358f399e0a56b21dd7995c95ad4b"
       },
-      "views": [],
+      "views": [
+        {
+          "view_id": "i2v_paper_paddle_front_static_refined",
+          "label": "Front view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/i2v_paper_paddle/i2v_paper_paddle_front_static_refined.mp4",
+          "poster": "media/views-20261015/i2v_paper_paddle/i2v_paper_paddle_front_static_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234745-xc6bw",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "native_camera_refinement",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct frontal camera; white ball contacts wheel, blue ball is released down the ramp into the basket. White ball exits the display after falling, as in the source action.",
+          "duration_s": 6.041667,
+          "video_sha256": "9d64f21b56bd3d863a87bf1b4fbe18adf0d0df03b57b9b6201e10dc082f693a7"
+        }
+      ],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
         "description": "The direct model introduces an extra blue ball in the mechanism.",
@@ -232,7 +332,7 @@
           "source_case_id": "I011"
         }
       },
-      "view_note": "Seedance-refined presentation video. Independent generations have independent timelines; qualitative example."
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
     },
     {
       "case_id": "i2v_piq_0157",
@@ -288,9 +388,42 @@
         "role": "Original Physics-IQ switch image",
         "sha256": "ee017fc0502b67e83b8a3a804ea956fc29bf3aaef9b7d2fb02c37dcc0eb1597e"
       },
-      "views": [],
+      "views": [
+        {
+          "view_id": "i2v_piq_0064_lateral_refined",
+          "label": "Front view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/i2v_piq_0064/i2v_piq_0064_lateral_refined.mp4",
+          "poster": "media/views-20261015/i2v_piq_0064/i2v_piq_0064_lateral_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234756-8ypbh",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "reference_video_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "New frontal viewpoint relative to the angled main view; one dispenser, one receiving glass and connected downward stream inspected. Liquid volume not measured.",
+          "duration_s": 5.041667,
+          "video_sha256": "61b014612157e6f825fc2e93a7b1d6aac8de64276450fa479ae77134c57d898b"
+        },
+        {
+          "view_id": "i2v_piq_0064_high_oblique_refined",
+          "label": "High oblique view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/i2v_piq_0064/i2v_piq_0064_high_oblique_refined.mp4",
+          "poster": "media/views-20261015/i2v_piq_0064/i2v_piq_0064_high_oblique_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234756-inqu0",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "reference_video_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct high oblique camera; connected pour and rising receiving liquid surface visible. Liquid volume not quantitatively validated.",
+          "duration_s": 6.041667,
+          "video_sha256": "5eea3baf51b78747f750dba22671818fedd29444b5596bbbceb791cb7c4be4ed"
+        }
+      ],
       "comparison": null,
-      "view_note": "Seedance-refined presentation video. Independent generations have independent timelines; qualitative example."
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
     },
     {
       "case_id": "i2v_piq_0031",
@@ -367,7 +500,40 @@
       },
       "video": "media/cases-20261015/cases/i2v_piq_0019/final.mp4",
       "poster": "media/cases-20261015/cases/i2v_piq_0019/poster.jpg",
-      "views": [],
+      "views": [
+        {
+          "view_id": "i2v_piq_0019_front_static_refined",
+          "label": "Front view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/i2v_piq_0019/i2v_piq_0019_front_static_refined.mp4",
+          "poster": "media/views-20261015/i2v_piq_0019/i2v_piq_0019_front_static_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234735-medyv",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "native_camera_refinement",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Wider frontal view; one ball approaches, climbs, reverses and rolls back down the supported ramp.",
+          "duration_s": 5.041667,
+          "video_sha256": "ce56415cea8a57185afbbe4b4738fe2366699db47421474c90cebd0d97f5d07a"
+        },
+        {
+          "view_id": "i2v_piq_0019_event_closeup_refined",
+          "label": "Detail view",
+          "kind": "generated_detail",
+          "video": "media/views-20261015/i2v_piq_0019/i2v_piq_0019_event_closeup_refined.mp4",
+          "poster": "media/views-20261015/i2v_piq_0019/i2v_piq_0019_event_closeup_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234736-bg3oo",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "native_camera_refinement",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Closer high view; one ball climbs and reverses on the same supported ramp. Not synchronized frame by frame with the main view.",
+          "duration_s": 5.041667,
+          "video_sha256": "2a58b06fca3b0a4ccb2cec7dee6c61706d482df7b0c106fd9cd5ee413f3ae059"
+        }
+      ],
       "input_image": {
         "image": "media/cases-20261015/cases/i2v_piq_0019/input.jpg",
         "kind": "actual_condition_image",
@@ -375,7 +541,7 @@
         "sha256": "6e08ef103b05fa466b5f9935d12141584bec8a87a63f7f72199470ab024fcbfb"
       },
       "comparison": null,
-      "view_note": "Generated views use independent timing; native cameras are synchronized within their source run."
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
     },
     {
       "case_id": "repair_support",
@@ -573,11 +739,27 @@
           "provider_task_id": "cgt-20261015203957-j5e9f",
           "processed_with": "Seedance",
           "poster": "media/cases-20261015-revision/robot_parcel_sort/views/synth_view_robot_parcel.jpg"
+        },
+        {
+          "view_id": "robot_parcel_sort_side_refined",
+          "label": "Side view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/robot_parcel_sort/robot_parcel_sort_side_refined.mp4",
+          "poster": "media/views-20261015/robot_parcel_sort/robot_parcel_sort_side_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234515-4x0qa",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "reference_video_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct lower camera; exactly three cartons remain, red-labelled carton is grasped, lifted, placed in green tray and released; other cartons stay put.",
+          "duration_s": 12.041667,
+          "video_sha256": "128c65acf2261074669fca6a08730816f5cb2ca2e9a4fde6b9f08abc3da35b6d"
         }
       ],
       "input_image": null,
       "comparison": null,
-      "view_note": "Generated views use independent timing; native cameras are synchronized within their source run."
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
     },
     {
       "case_id": "robot_water_pour",
@@ -606,6 +788,22 @@
           "provider_task_id": "cgt-20261015210028-9n44a",
           "processed_with": "Seedance",
           "poster": "media/cases-20261015-revision/robot_water_pour/views/water_oblique_solid_mugs.jpg"
+        },
+        {
+          "view_id": "robot_water_pour_lateral_refined",
+          "label": "Side view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/robot_water_pour/robot_water_pour_lateral_refined.mp4",
+          "poster": "media/views-20261015/robot_water_pour/robot_water_pour_lateral_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234808-zt14g",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "reference_video_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "Distinct camera; two opaque mugs retained, grasp/lift/pour/upright/withdraw sequence inspected. Mug is held at the end; no force, liquid-volume or policy validation.",
+          "duration_s": 12.041667,
+          "video_sha256": "5c415910d1f014c4c0d7e03ddc5bf008bf5d52f4f0853fd3f415763e31e2a7d9"
         }
       ],
       "input_image": {
@@ -615,7 +813,7 @@
         "sha256": "968818e194c4c743af2d7e721dff73f37aff3f6411fee9cbc17cdb4ef81dac27"
       },
       "comparison": null,
-      "view_note": "Generated views use independent timing; native cameras are synchronized within their source run."
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
     },
     {
       "case_id": "robot_towel_fold",
@@ -644,6 +842,22 @@
           "provider_task_id": "cgt-20261015204948-rfg6a",
           "processed_with": "Seedance",
           "poster": "media/cases-20261015-revision/robot_towel_fold/views/robot_towel_front_opaque.jpg"
+        },
+        {
+          "view_id": "robot_towel_fold_lateral_refined",
+          "label": "Side view",
+          "kind": "generated_alternate",
+          "video": "media/views-20261015/robot_towel_fold/robot_towel_fold_lateral_refined.mp4",
+          "poster": "media/views-20261015/robot_towel_fold/robot_towel_fold_lateral_refined.jpg",
+          "synchronized_group": null,
+          "provider_task_id": "cgt-20261015234812-6svrr",
+          "processed_with": "Seedance",
+          "refinement_model": "doubao-seedance-2-5-260628",
+          "source_kind": "reference_video_view_synthesis",
+          "review_status": "keyframes_reviewed",
+          "review_note": "New lower oblique camera; both grippers enter, grasp, lift, fold and release one opaque pink towel. Independent generated geometry and timing.",
+          "duration_s": 8.041667,
+          "video_sha256": "9e96f800d24bf634e2cb57453807eb44df1569e3826fc8f97c7a0f9411b35d13"
         }
       ],
       "input_image": {
@@ -653,7 +867,7 @@
         "sha256": "5a6584e2a282e7fd91c0f0d831233bec3ea374b309ba064176b1b760086c2f2d"
       },
       "comparison": null,
-      "view_note": "Generated views use independent timing; native cameras are synchronized within their source run."
+      "view_note": "Seedance-refined camera views. Generated views have independent timelines; event timing may differ."
     }
   ]
 }
