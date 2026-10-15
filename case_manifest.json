@@ -112,7 +112,33 @@
       "poster": "media/cases-20261015/cases/t2v_wave_connected/poster.jpg",
       "views": [],
       "input_image": null,
-      "comparison": null
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "description": "Extra pendulum balls and branching suspension lines appear during the motion. Qualitatively selected example; this is not an error-rate estimate.",
+        "type": "direct_model_comparison",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/comparisons-sd20-fast-20261016/t2v_wave_connected/direct.mp4",
+        "after": "media/cases-20261015/cases/t2v_wave_connected/final.mp4",
+        "before_poster": "media/comparisons-sd20-fast-20261016/t2v_wave_connected/direct.jpg",
+        "after_poster": "media/cases-20261015/cases/t2v_wave_connected/poster.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Exact website task text, direct text-to-video; no simulator guide or PhysLoop reference video.",
+        "input_protocol_after": "Selected PhysLoop result with simulator guidance and Seedance refinement. Independent timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "provider_task_id": "cgt-20261016013902-z8db6",
+          "source_sha256": "61441f3fe3b3d956e4e9cf4f66595c7cdeb68e9e8971e9f1a9a2ebd6fb67f942",
+          "seed": 2026101601,
+          "prompt": "Fifteen suspended colored pendulums swing at different natural periods, producing a visible phase wave. Keep their connected support frame and individual identities.",
+          "sampling": "One predeclared initial sample per case; two robot actor-clarification samples retained separately.",
+          "error_kind": "object_identity",
+          "evidence_interval_s": [
+            4.0,
+            8.2
+          ]
+        }
+      }
     },
     {
       "case_id": "t2v_box_balance",
@@ -133,7 +159,33 @@
       "poster": "media/cases-20261015/cases/t2v_box_balance/poster.jpg",
       "views": [],
       "input_image": null,
-      "comparison": null
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "description": "The direct sample generates more than the requested five cartons per stack. Qualitatively selected example; this is not an error-rate estimate.",
+        "type": "direct_model_comparison",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/comparisons-sd20-fast-20261016/t2v_box_balance/direct.mp4",
+        "after": "media/cases-20261015/cases/t2v_box_balance/final.mp4",
+        "before_poster": "media/comparisons-sd20-fast-20261016/t2v_box_balance/direct.jpg",
+        "after_poster": "media/cases-20261015/cases/t2v_box_balance/poster.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Exact website task text, direct text-to-video; no simulator guide or PhysLoop reference video.",
+        "input_protocol_after": "Selected PhysLoop result with simulator guidance and Seedance refinement. Independent timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "provider_task_id": "cgt-20261016013934-fgvt5",
+          "source_sha256": "89f61c1f391ad5167822f11db3d4b3cfbc57e887c2e8f4833b5c32d9bbb1c4fa",
+          "seed": 2026101602,
+          "prompt": "Release two stacks of five open cardboard cartons on a wooden platform: one aligned and one offset. Let gravity and contact determine which stack remains stable.",
+          "sampling": "One predeclared initial sample per case; two robot actor-clarification samples retained separately.",
+          "error_kind": "instruction_count",
+          "evidence_interval_s": [
+            0.0,
+            2.0
+          ]
+        }
+      }
     },
     {
       "case_id": "t2v_c012",
@@ -177,7 +229,33 @@
       "poster": "media/cases-20261015/cases/t2v_i001/poster.jpg",
       "views": [],
       "input_image": null,
-      "comparison": null
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "description": "The direct sample adds dominoes beyond the requested six. Qualitatively selected example; this is not an error-rate estimate.",
+        "type": "direct_model_comparison",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/comparisons-sd20-fast-20261016/t2v_i001/direct.mp4",
+        "after": "media/cases-20261015/cases/t2v_i001/final.mp4",
+        "before_poster": "media/comparisons-sd20-fast-20261016/t2v_i001/direct.jpg",
+        "after_poster": "media/cases-20261015/cases/t2v_i001/poster.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Exact website task text, direct text-to-video; no simulator guide or PhysLoop reference video.",
+        "input_protocol_after": "Selected PhysLoop result with simulator guidance and Seedance refinement. Independent timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "provider_task_id": "cgt-20261016013934-wlnpb",
+          "source_sha256": "7d2220a26d7f72ab6093d1b2d51b006a36d67ffc6de340d24152290e8789715c",
+          "seed": 2026101604,
+          "prompt": "A red ball rolls down a wooden ramp, topples six dominoes and actuates a seesaw that launches a blue ball toward a small bucket.",
+          "sampling": "One predeclared initial sample per case; two robot actor-clarification samples retained separately.",
+          "error_kind": "instruction_count",
+          "evidence_interval_s": [
+            1.5,
+            3.0
+          ]
+        }
+      }
     },
     {
       "case_id": "i2v_paper_paddle",
@@ -253,7 +331,33 @@
         "sha256": "e9a48ce2fa8e01b79b2617c3b55b919da9f591e2ed55e49191b2ebbfa6334395"
       },
       "views": [],
-      "comparison": null
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "description": "The silk becomes translucent as it settles, revealing the teapot pattern through the fabric. Qualitatively selected example; this is not an error-rate estimate.",
+        "type": "direct_model_comparison",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/comparisons-sd20-fast-20261016/i2v_piq_0157/direct.mp4",
+        "after": "media/cases-20261015-revision/i2v_piq_0157/final.mp4",
+        "before_poster": "media/comparisons-sd20-fast-20261016/i2v_piq_0157/direct.jpg",
+        "after_poster": "media/cases-20261015-revision/i2v_piq_0157/poster.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Exact website task text and actual image-to-video input image; no simulator guide or reference video.",
+        "input_protocol_after": "Selected PhysLoop result with simulator guidance and Seedance refinement. Independent timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "provider_task_id": "cgt-20261016013934-tb4rv",
+          "source_sha256": "9a20cbdffb9cf8d12a3d91132fc6ad21bfe95a41f35cdf322f898eefca589673",
+          "seed": 2026101605,
+          "prompt": "A silk cloth settles over the teapot and follows its shape.",
+          "sampling": "One predeclared initial sample per case; two robot actor-clarification samples retained separately.",
+          "error_kind": "material_consistency",
+          "evidence_interval_s": [
+            3.3,
+            5.0
+          ]
+        }
+      }
     },
     {
       "case_id": "i2v_piq_0064",
@@ -575,7 +679,33 @@
         "role": "Actual generated starting image used for this video; derived from the existing towel scene with a dense opaque-cotton material revision.",
         "sha256": "5a6584e2a282e7fd91c0f0d831233bec3ea374b309ba064176b1b760086c2f2d"
       },
-      "comparison": null
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "description": "Both sides fold toward the center instead of performing the requested single half-fold. Qualitatively selected example; this is not an error-rate estimate.",
+        "type": "direct_model_comparison",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/comparisons-sd20-fast-20261016/robot_towel_fold/direct.mp4",
+        "after": "media/cases-20261015/cases/robot_towel_fold/final.mp4",
+        "before_poster": "media/comparisons-sd20-fast-20261016/robot_towel_fold/direct.jpg",
+        "after_poster": "media/cases-20261015/cases/robot_towel_fold/poster.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Qualitative comparison initialized from frame0 of the selected website main video. This is a new display comparison, not an original benchmark input. No future frames, simulator guide or reference video.",
+        "input_protocol_after": "Selected PhysLoop result with simulator guidance and Seedance refinement. Independent timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "provider_task_id": "cgt-20261016013947-4gp85",
+          "source_sha256": "cbda080f51c1c4b19bc5dedc25be770d26a0fd5c12b4505a42faaf43215db549",
+          "seed": 2026101612,
+          "prompt": "Two grippers grasp the back corners of one thick pink cotton towel, lift, fold it in half, release and retract.",
+          "sampling": "One predeclared initial sample per case; two robot actor-clarification samples retained separately.",
+          "error_kind": "task_completion",
+          "evidence_interval_s": [
+            2.0,
+            8.0
+          ]
+        }
+      }
     }
   ]
 }
