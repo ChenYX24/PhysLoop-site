@@ -1,0 +1,51 @@
+[
+  {
+    "case_id": "t2v_wave_connected",
+    "camera": "side",
+    "file": "4ef356703ace961f98e11b04ef0d75d647f33062b0faf0e3c2a825dc74b7ce08.mp4",
+    "sha256": "4ef356703ace961f98e11b04ef0d75d647f33062b0faf0e3c2a825dc74b7ce08",
+    "purpose": "SD2.5 refinement input, not a final case or accepted result."
+  },
+  {
+    "case_id": "t2v_box_balance",
+    "camera": "top",
+    "file": "35c61483d0e94c089c37a1034f7e03ce320c6cd9377af37f9947a98e1b5b128e.mp4",
+    "sha256": "35c61483d0e94c089c37a1034f7e03ce320c6cd9377af37f9947a98e1b5b128e",
+    "purpose": "SD2.5 refinement input, not a final case or accepted result."
+  },
+  {
+    "case_id": "t2v_c012",
+    "camera": "side",
+    "file": "9685cd9ca02f7e638db839091e11760922c146aba2dd1c8aed5308f18af39317.mp4",
+    "sha256": "9685cd9ca02f7e638db839091e11760922c146aba2dd1c8aed5308f18af39317",
+    "purpose": "SD2.5 refinement input, not a final case or accepted result."
+  },
+  {
+    "case_id": "t2v_c012",
+    "camera": "top",
+    "file": "6c80d8375d2b987977be3d46696f1db761546e02eb31d5e837b2992e38f17cfb.mp4",
+    "sha256": "6c80d8375d2b987977be3d46696f1db761546e02eb31d5e837b2992e38f17cfb",
+    "purpose": "SD2.5 refinement input, not a final case or accepted result."
+  },
+  {
+    "case_id": "i2v_paper_paddle",
+    "camera": "side",
+    "file": "c21573e52edfebd8ad52eedcd980190bc7e2c550a3016f959b01097c3e938236.mp4",
+    "sha256": "c21573e52edfebd8ad52eedcd980190bc7e2c550a3016f959b01097c3e938236",
+    "purpose": "SD2.5 refinement input, not a final case or accepted result."
+  },
+  {
+    "case_id": "i2v_paper_paddle",
+    "camera": "top",
+    "file": "5e9fc9023de90baa65e14040170e98960be2e5f92923783b777398dea7f5433a.mp4",
+    "sha256": "5e9fc9023de90baa65e14040170e98960be2e5f92923783b777398dea7f5433a",
+    "purpose": "SD2.5 refinement input, not a final case or accepted result."
+  },
+  {
+    "case_id": "repair_domino",
+    "camera": "front",
+    "file": "16dc1d840a30cb8a3e39fa4647d72fad191ce4205c131de3b5608621d2a8aa0a.mp4",
+    "sha256": "16dc1d840a30cb8a3e39fa4647d72fad191ce4205c131de3b5608621d2a8aa0a",
+    "purpose": "SD2.5 refinement input, not a final case or accepted result."
+  }
+]
