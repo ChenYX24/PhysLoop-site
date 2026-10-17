@@ -163,7 +163,7 @@
           "provider_task_id": "cgt-20261017033909-4r8a7",
           "source_sha256": "a8ee1e74a7feae405b1d05777212f8cd458c00772464153f87e1d77920f4c9ff",
           "playback_sha256": "a8ee1e74a7feae405b1d05777212f8cd458c00772464153f87e1d77920f4c9ff",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         },
         {
           "label": "High / top view",
@@ -232,12 +232,12 @@
         {
           "label": "High / top view",
           "camera": "top",
-          "video": "media/reviewed-20261017/63ee11e94cb129ab9e10ede8b4186a360141f9cb55b3ad3434b251ad40ce4cc2.mp4",
-          "poster": "media/reviewed-20261017/7f2d722427310b124a9463362ff262b441a6b4d3ab0319c8c2bede91f07da88f.jpg",
+          "video": "media/reviewed-20261017/680b5aeeb72437c33caa2acdd95e760cfe6f27ccecbf0541d156fea73977aa50.mp4",
+          "poster": "media/reviewed-20261017/6400f2fc453e58063404ee7d54094a73cadcc3bd07cfc3715953b38db2177a5e.jpg",
           "model": "doubao-seedance-2-5-260628",
-          "provider_task_id": "cgt-20261017040052-d6kno",
-          "source_sha256": "63ee11e94cb129ab9e10ede8b4186a360141f9cb55b3ad3434b251ad40ce4cc2",
-          "playback_sha256": "63ee11e94cb129ab9e10ede8b4186a360141f9cb55b3ad3434b251ad40ce4cc2",
+          "provider_task_id": "cgt-20261017153819-pqmdb",
+          "source_sha256": "7bbf82315805e8adcf576203a5fca3dcafc9dac96c43d1215ff46ced8c15f74f",
+          "playback_sha256": "680b5aeeb72437c33caa2acdd95e760cfe6f27ccecbf0541d156fea73977aa50",
           "review_status": "candidate_pending_user_review"
         }
       ],
@@ -291,7 +291,7 @@
           "provider_task_id": "cgt-20261017040108-ml1cs",
           "source_sha256": "2200d26d4a963bd6e148d5de47853b8f5787e72df94dafe3f4c536e650bd9216",
           "playback_sha256": "2200d26d4a963bd6e148d5de47853b8f5787e72df94dafe3f4c536e650bd9216",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         },
         {
           "label": "High / top view",
@@ -302,7 +302,7 @@
           "provider_task_id": "cgt-20261017040124-65ibn",
           "source_sha256": "3fe47d37f44329ed92c878c276c1b0d8bdf8774b7d51c5ff95fb5ad29de12640",
           "playback_sha256": "3fe47d37f44329ed92c878c276c1b0d8bdf8774b7d51c5ff95fb5ad29de12640",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         }
       ],
       "comparison": {
@@ -420,7 +420,7 @@
           "provider_task_id": "cgt-20261017040141-f1j13",
           "source_sha256": "1e689b3746bb1962575c5d3c57252250f23ceea8f9b3ab1010404c28c443fa52",
           "playback_sha256": "1e689b3746bb1962575c5d3c57252250f23ceea8f9b3ab1010404c28c443fa52",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         },
         {
           "label": "High / top view",
@@ -431,7 +431,7 @@
           "provider_task_id": "cgt-20261017040159-e1rcv",
           "source_sha256": "7f0c4e29f61954edeb5415a549f29524cdec853e297776096773ba0d40733724",
           "playback_sha256": "7f0c4e29f61954edeb5415a549f29524cdec853e297776096773ba0d40733724",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         }
       ],
       "comparison": {
@@ -487,7 +487,7 @@
           "provider_task_id": "cgt-20261017030129-yh2l6",
           "source_sha256": "e98dd75c30a8f3bf587f7875076645ff3234423589682c3e20f272951ef03380",
           "playback_sha256": "e98dd75c30a8f3bf587f7875076645ff3234423589682c3e20f272951ef03380",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         },
         {
           "label": "High / top view",
@@ -498,7 +498,7 @@
           "provider_task_id": "cgt-20261017030134-bputx",
           "source_sha256": "e89748880bed5756fd1f7cd15729596c034851fb1bae1e8886f994a540d3eb1a",
           "playback_sha256": "e89748880bed5756fd1f7cd15729596c034851fb1bae1e8886f994a540d3eb1a",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         }
       ],
       "comparison": {
@@ -688,7 +688,7 @@
           "provider_task_id": "cgt-20261017030243-n7g40",
           "source_sha256": "e5ea69955a32013be835f5479f7264106a9114d2627deb35d75ebca87f0a610f",
           "playback_sha256": "e5ea69955a32013be835f5479f7264106a9114d2627deb35d75ebca87f0a610f",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         },
         {
           "label": "High / top view",
@@ -699,7 +699,7 @@
           "provider_task_id": "cgt-20261017040630-8m8i2",
           "source_sha256": "63ff44797ea6d2e77dd29f9c35450ec698ee6c73467812cab6f82e364c2d0c2d",
           "playback_sha256": "63ff44797ea6d2e77dd29f9c35450ec698ee6c73467812cab6f82e364c2d0c2d",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         }
       ],
       "comparison": {
@@ -755,7 +755,7 @@
           "provider_task_id": "cgt-20261017145500-gbhfs",
           "source_sha256": "718065fb889c6142f480fcc114a74d9cae46f32971c42a0762b57c3a97830c73",
           "playback_sha256": "718065fb889c6142f480fcc114a74d9cae46f32971c42a0762b57c3a97830c73",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         },
         {
           "label": "High / top view",
@@ -766,7 +766,7 @@
           "provider_task_id": "cgt-20261017145513-7s7du",
           "source_sha256": "2d1d9b19fadba0559cd49d9ec41dd49aac4955875de1aa2586e45b516349b0d6",
           "playback_sha256": "2d1d9b19fadba0559cd49d9ec41dd49aac4955875de1aa2586e45b516349b0d6",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         }
       ],
       "comparison": {
@@ -904,7 +904,7 @@
         "provider": "Ark Seedance",
         "task_id": "cgt-20261017040213-nu0jl",
         "sha256": "485b11ce9415bfe8ba66c5d02d4b7b224c05f66264c928e04c1f20439d9e80a3",
-        "review_status": "candidate_pending_user_review"
+        "review_status": "user_kept"
       },
       "views": [],
       "comparison": {
