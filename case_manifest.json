@@ -11,42 +11,64 @@
       "case_id": "t2v_paper_billiards",
       "category": "text_to_video",
       "title": "Billiard break",
-      "prompt": "十五球台球开球",
       "prompt_english": "One cue ball breaks a triangular rack of fifteen balls. The balls scatter and rebound from the cushions.",
       "method": "PhysLoop scene guide with Seedance refinement",
       "delivery_tier": "website_selection",
       "duration_s": 6.041667,
+      "prompt": "One cue ball breaks a triangular rack of fifteen balls. The balls scatter and rebound from the cushions.",
+      "video": "media/reviewed-20261017/68a21186d960fd0452f61a6862c342446b7419c245479cb14d9efda5bb1bf899.mp4",
+      "poster": "media/reviewed-20261017/201c2c775e479990e96836e2856f8287b84797200974c28b1874df6c9e0e3b6d.jpg",
       "source": {
-        "source_case_id": "R016",
-        "source_job_id": "job_refine26_r016_native1080_20261012",
-        "provider": "Ark Seedance",
         "model": "ep-20260916182832-cx8n2",
-        "provider_task_id": "cgt-20261007135108-dhw41",
-        "reference_video_used": true,
-        "paper_example": true
+        "task_id": "cgt-20261007135108-dhw41",
+        "sha256": "68a21186d960fd0452f61a6862c342446b7419c245479cb14d9efda5bb1bf899",
+        "review_status": "user_kept",
+        "reviewed_source_sha256": "cfc9aba785904af208d2387139e253ceb4f42296357a5b5df79286ecb4101d3c"
       },
-      "video": "media/cases-20261015-revision/t2v_paper_billiards/final.mp4",
-      "poster": "media/cases-20261015-revision/t2v_paper_billiards/poster.jpg",
-      "input_image": null,
-      "views": [],
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/views-20261015/t2v_paper_billiards/t2v_paper_billiards_side_static_refined.mp4",
+          "poster": "media/reviewed-20261017/20c0291f8cd7d5b591f522d2598d4612e2de727573e11b316e4f8636fefef1dc.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261015234744-dbo99",
+          "source_sha256": "c90f76d6b0112e70a8a87e794409e877630157c4be4c6e86c724e31f76039402",
+          "playback_sha256": "c90f76d6b0112e70a8a87e794409e877630157c4be4c6e86c724e31f76039402",
+          "review_status": "user_kept"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/reviewed-20261017/01cd8b681cb8e04c03c89fb90016943dc213f83ba4ef084adcb6d96f97894d64.mp4",
+          "poster": "media/reviewed-20261017/dc10795ae77ed00895061e180a5313e3724f265e165d5e02c1c949305c14ee47.jpg",
+          "model": "doubao-sd-video-2.5",
+          "provider_task_id": "cgt-20261016191315-1gsa2",
+          "source_sha256": "01cd8b681cb8e04c03c89fb90016943dc213f83ba4ef084adcb6d96f97894d64",
+          "playback_sha256": "01cd8b681cb8e04c03c89fb90016943dc213f83ba4ef084adcb6d96f97894d64",
+          "review_status": "user_kept"
+        }
+      ],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
-        "description": "The direct model introduces extra balls during the break.",
         "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
         "before_label": "Gemini Omni (direct)",
         "after_label": "PhysLoop",
         "before": "media/cases-20261015-revision/t2v_paper_billiards/comparison/direct.mp4",
-        "after": "media/cases-20261015-revision/t2v_paper_billiards/final.mp4",
+        "after": "media/reviewed-20261017/68a21186d960fd0452f61a6862c342446b7419c245479cb14d9efda5bb1bf899.mp4",
         "before_poster": "media/cases-20261015-revision/t2v_paper_billiards/comparison/direct.jpg",
-        "after_poster": "media/cases-20261015-revision/t2v_paper_billiards/poster.jpg",
+        "after_poster": "media/reviewed-20261017/201c2c775e479990e96836e2856f8287b84797200974c28b1874df6c9e0e3b6d.jpg",
         "time_aligned": false,
         "input_protocol_before": "Original task prompt; no simulator guide",
-        "input_protocol_after": "Same task with a simulator motion guide and Seedance refinement",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
         "baseline_source": {
           "model": "Gemini Omni",
-          "setting": "01_prompt_gemini",
-          "source_sha256": "718592e6a1051e650e3e05f6d9461750f333f12e2a688d607f66b14078e90840",
-          "source_case_id": "R016"
+          "task_id": null,
+          "seed": null,
+          "sha256": "718592e6a1051e650e3e05f6d9461750f333f12e2a688d607f66b14078e90840",
+          "review_status": "user_kept",
+          "playback_sha256": "718592e6a1051e650e3e05f6d9461750f333f12e2a688d607f66b14078e90840"
         }
       }
     },
@@ -54,42 +76,63 @@
       "case_id": "t2v_paper_domino",
       "category": "text_to_video",
       "title": "Domino chain",
-      "prompt": "S 形多米诺骨牌链最终带倒末端花瓶",
       "prompt_english": "An S-shaped domino chain topples in order and knocks down the ornament at its end.",
       "method": "PhysLoop scene guide with Seedance refinement",
       "delivery_tier": "website_selection",
       "duration_s": 6.041667,
+      "prompt": "An S-shaped domino chain topples in order and knocks down the ornament at its end.",
+      "video": "media/reviewed-20261017/2e134dcb3a9594c7c5e82380de5c04b16a88e14e4fa5025454c696375ae4e29e.mp4",
+      "poster": "media/reviewed-20261017/1b459fe66ad666eefb9bae24db5c11fd524bf2e48ea5f3a5d775b32881ea3cff.jpg",
       "source": {
-        "source_case_id": "R014",
-        "source_job_id": "job_iclr_core80_011_r014_gpt56_s7",
-        "provider": "Ark Seedance",
         "model": "Seedance 2.5",
-        "provider_task_id": null,
-        "reference_video_used": true,
-        "paper_example": true
+        "sha256": "2e134dcb3a9594c7c5e82380de5c04b16a88e14e4fa5025454c696375ae4e29e",
+        "review_status": "user_kept",
+        "reviewed_source_sha256": "c0f9cafc28c7be228d59df0d0c206e57e1799171848fbd7715b9a76ad5155420"
       },
-      "video": "media/cases-20261015-revision/t2v_paper_domino/final.mp4",
-      "poster": "media/cases-20261015-revision/t2v_paper_domino/poster.jpg",
-      "input_image": null,
-      "views": [],
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/reviewed-20261017/d019d37cfcf4844b7aab055ae5f311bde19c29f7d4b72b45b5a84e0a9d68774b.mp4",
+          "poster": "media/reviewed-20261017/67e9029867bf2b0917da2f14a47e597c57aaf782133c69d07e47a77748b8424c.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261016161122-zo4cs",
+          "source_sha256": "d019d37cfcf4844b7aab055ae5f311bde19c29f7d4b72b45b5a84e0a9d68774b",
+          "playback_sha256": "d019d37cfcf4844b7aab055ae5f311bde19c29f7d4b72b45b5a84e0a9d68774b",
+          "review_status": "user_kept"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/views-20261015/t2v_paper_domino/t2v_paper_domino_domino_paper_top_conditioned_v2.mp4",
+          "poster": "media/reviewed-20261017/5a73ec1e08e3cd9500f8479804f9d30a5413631ef1e4f40211cbbe34577f8ee8.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261016000726-4xmno",
+          "source_sha256": "9fbfbe9edede9f6481a6f496fef31773948eab26cc8b73bc4bf6ea49b5b7dae6",
+          "playback_sha256": "9fbfbe9edede9f6481a6f496fef31773948eab26cc8b73bc4bf6ea49b5b7dae6",
+          "review_status": "user_kept"
+        }
+      ],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
-        "description": "The direct model changes the requested S-shaped chain into a straight layout.",
         "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
         "before_label": "Seedance 2.5 (direct)",
         "after_label": "PhysLoop",
         "before": "media/cases-20261015-revision/t2v_paper_domino/comparison/direct.mp4",
-        "after": "media/cases-20261015-revision/t2v_paper_domino/final.mp4",
+        "after": "media/reviewed-20261017/2e134dcb3a9594c7c5e82380de5c04b16a88e14e4fa5025454c696375ae4e29e.mp4",
         "before_poster": "media/cases-20261015-revision/t2v_paper_domino/comparison/direct.jpg",
-        "after_poster": "media/cases-20261015-revision/t2v_paper_domino/poster.jpg",
+        "after_poster": "media/reviewed-20261017/1b459fe66ad666eefb9bae24db5c11fd524bf2e48ea5f3a5d775b32881ea3cff.jpg",
         "time_aligned": false,
         "input_protocol_before": "Original task prompt; no simulator guide",
-        "input_protocol_after": "Same task with a simulator motion guide and Seedance refinement",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
         "baseline_source": {
           "model": "Seedance 2.5",
-          "setting": "02_prompt_sd",
-          "source_sha256": "c90d98b4ed16f2dbadc845bfafb8012ec3e86d1c7c50748c4f9dab80f3cda4c5",
-          "source_case_id": "R014"
+          "task_id": null,
+          "seed": null,
+          "sha256": "c90d98b4ed16f2dbadc845bfafb8012ec3e86d1c7c50748c4f9dab80f3cda4c5",
+          "review_status": "user_kept",
+          "playback_sha256": "c90d98b4ed16f2dbadc845bfafb8012ec3e86d1c7c50748c4f9dab80f3cda4c5"
         }
       }
     },
@@ -97,46 +140,63 @@
       "case_id": "t2v_wave_connected",
       "category": "text_to_video",
       "title": "Pendulum phase wave",
-      "prompt": "用户新增要求：摆球上面的管子有点问题，没有连接处。补全十五摆球装置横梁与两侧立柱的实体角接头、螺栓，以及十五根吊杆的轴座。保留上一展示版本的十五球身份、初始状态、摆长、约束、求解参数和固定机位。此为用户明确请求的机械安装结构修订，父版本已完成的视频和EvidenceBundle失败回执保留，不能视为解决其证据来源错误。重新跑原生UE并生成Seedance外观版，仅限预览。",
       "prompt_english": "Fifteen suspended colored pendulums swing at different natural periods, producing a visible phase wave. Keep their connected support frame and individual identities.",
       "method": "Text request → native simulation → appearance refinement",
       "delivery_tier": "core12",
       "duration_s": 12.041667,
-      "source": {
-        "source_job_id": "job_paper_showcase_20261010_wave_connected",
-        "provider": "Ark Seedance",
-        "model": "ep-20260916182832-cx8n2",
-        "provider_task_id": "cgt-20261010230711-t023a"
-      },
+      "prompt": "Fifteen suspended colored pendulums swing at different natural periods, producing a visible phase wave. Keep their connected support frame and individual identities.",
       "video": "media/cases-20261015/cases/t2v_wave_connected/final.mp4",
-      "poster": "media/cases-20261015/cases/t2v_wave_connected/poster.jpg",
-      "views": [],
-      "input_image": null,
+      "poster": "media/reviewed-20261017/c6e4cd21fbc9e4e423d5f11b29a377bb1168320831f610dd05960642e148face.jpg",
+      "source": {
+        "model": "ep-20260916182832-cx8n2",
+        "task_id": "cgt-20261010230711-t023a",
+        "sha256": "b1bf3af1f075a262aaa47342a5a0ccbd22852813506eca6c7bac70f3c9c584ee",
+        "review_status": "user_kept"
+      },
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/reviewed-20261017/a8ee1e74a7feae405b1d05777212f8cd458c00772464153f87e1d77920f4c9ff.mp4",
+          "poster": "media/reviewed-20261017/ce87183f467347bc9a1b88a87b1b5154a00f9f670d016225319ec41de1bdc133.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261017033909-4r8a7",
+          "source_sha256": "a8ee1e74a7feae405b1d05777212f8cd458c00772464153f87e1d77920f4c9ff",
+          "playback_sha256": "a8ee1e74a7feae405b1d05777212f8cd458c00772464153f87e1d77920f4c9ff",
+          "review_status": "candidate_pending_user_review"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/reviewed-20261017/666eb118963f50fe7279c259db00142cece3fb9753c4a24be6d8d12ca60f29a1.mp4",
+          "poster": "media/reviewed-20261017/17228d284d43d4e999746df703696cc574872778cb52ce2a8010e56ae0a64efe.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261016162515-y7gx0",
+          "source_sha256": "666eb118963f50fe7279c259db00142cece3fb9753c4a24be6d8d12ca60f29a1",
+          "playback_sha256": "666eb118963f50fe7279c259db00142cece3fb9753c4a24be6d8d12ca60f29a1",
+          "review_status": "user_kept"
+        }
+      ],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
-        "description": "Extra pendulum balls and branching suspension lines appear during the motion. Qualitatively selected example; this is not an error-rate estimate.",
         "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
         "before_label": "Seedance 2.0 Fast (direct)",
         "after_label": "PhysLoop",
         "before": "media/comparisons-sd20-fast-20261016/t2v_wave_connected/direct.mp4",
         "after": "media/cases-20261015/cases/t2v_wave_connected/final.mp4",
         "before_poster": "media/comparisons-sd20-fast-20261016/t2v_wave_connected/direct.jpg",
-        "after_poster": "media/cases-20261015/cases/t2v_wave_connected/poster.jpg",
+        "after_poster": "media/reviewed-20261017/c6e4cd21fbc9e4e423d5f11b29a377bb1168320831f610dd05960642e148face.jpg",
         "time_aligned": false,
         "input_protocol_before": "Exact website task text, direct text-to-video; no simulator guide or PhysLoop reference video.",
-        "input_protocol_after": "Selected PhysLoop result with simulator guidance and Seedance refinement. Independent timeline.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
         "baseline_source": {
           "model": "doubao-seedance-2-0-fast-260128",
-          "provider_task_id": "cgt-20261016013902-z8db6",
-          "source_sha256": "61441f3fe3b3d956e4e9cf4f66595c7cdeb68e9e8971e9f1a9a2ebd6fb67f942",
+          "task_id": "cgt-20261016013902-z8db6",
           "seed": 2026101601,
-          "prompt": "Fifteen suspended colored pendulums swing at different natural periods, producing a visible phase wave. Keep their connected support frame and individual identities.",
-          "sampling": "One predeclared initial sample per case; two robot actor-clarification samples retained separately.",
-          "error_kind": "object_identity",
-          "evidence_interval_s": [
-            4.0,
-            8.2
-          ]
+          "sha256": "61441f3fe3b3d956e4e9cf4f66595c7cdeb68e9e8971e9f1a9a2ebd6fb67f942",
+          "review_status": "user_kept",
+          "playback_sha256": "61441f3fe3b3d956e4e9cf4f66595c7cdeb68e9e8971e9f1a9a2ebd6fb67f942"
         }
       }
     },
@@ -144,46 +204,63 @@
       "case_id": "t2v_box_balance",
       "category": "text_to_video",
       "title": "Aligned and offset carton stacks",
-      "prompt": "用户要求更多现实常见的物理场景，不只是球，UE画面更好看，而且每个可用新版都要过Seedance。使用真实已导入资产，保留Chaos重力、碰撞和完整实际末态；不编造成功、路径或隐藏驱动。12秒三机位RGB，不运行独立Reviewer；原生质量门后只进行一次Seedance材质和日常环境精修。第二例：暖木平台上两组各五个真实开口纸箱，一组垂直对齐，一组逐层横向偏移；0.8秒同时释放，展示重心与支撑范围如何产生不同结果，实际报告哪一组稳定、哪一组倾倒。保留开口、纸板纹理和提手；显式长方体外包络碰撞适用于外部堆叠，不宣称箱内或纸板变形。",
       "prompt_english": "Release two stacks of five open cardboard cartons on a wooden platform: one aligned and one offset. Let gravity and contact determine which stack remains stable.",
       "method": "Text request → native simulation → appearance refinement",
       "delivery_tier": "additional",
       "duration_s": 6.041667,
-      "source": {
-        "source_job_id": "job_paper_showcase_20261011_box_balance",
-        "provider": "Ark Seedance",
-        "model": "ep-20260916182832-cx8n2",
-        "provider_task_id": "cgt-20261011233347-0igas"
-      },
+      "prompt": "Release two stacks of five open cardboard cartons on a wooden platform: one aligned and one offset. Let gravity and contact determine which stack remains stable.",
       "video": "media/cases-20261015/cases/t2v_box_balance/final.mp4",
-      "poster": "media/cases-20261015/cases/t2v_box_balance/poster.jpg",
-      "views": [],
-      "input_image": null,
+      "poster": "media/reviewed-20261017/97464857712e2e85cfebf07edfebfd04b56a6c6edb647c4f0d0f8ed4505ceb9e.jpg",
+      "source": {
+        "model": "ep-20260916182832-cx8n2",
+        "task_id": "cgt-20261011233347-0igas",
+        "sha256": "15ed41eec92c70707c2f88572637abfc264f8bcd5bef66ba28c64cca7543f1b9",
+        "review_status": "user_kept"
+      },
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/views-20261015/t2v_box_balance/t2v_box_balance_side_static_refined.mp4",
+          "poster": "media/reviewed-20261017/7e8ba98abc610fdf3483b30c5949b53c850fc25e97c68733265c745e1e83e8e1.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261015234723-tm63g",
+          "source_sha256": "60158694ca65069c1323e197b0f78266b0f6fb24bc0dfadfe122c13287c256b0",
+          "playback_sha256": "60158694ca65069c1323e197b0f78266b0f6fb24bc0dfadfe122c13287c256b0",
+          "review_status": "user_kept"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/reviewed-20261017/63ee11e94cb129ab9e10ede8b4186a360141f9cb55b3ad3434b251ad40ce4cc2.mp4",
+          "poster": "media/reviewed-20261017/7f2d722427310b124a9463362ff262b441a6b4d3ab0319c8c2bede91f07da88f.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261017040052-d6kno",
+          "source_sha256": "63ee11e94cb129ab9e10ede8b4186a360141f9cb55b3ad3434b251ad40ce4cc2",
+          "playback_sha256": "63ee11e94cb129ab9e10ede8b4186a360141f9cb55b3ad3434b251ad40ce4cc2",
+          "review_status": "candidate_pending_user_review"
+        }
+      ],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
-        "description": "The direct sample generates more than the requested five cartons per stack. Qualitatively selected example; this is not an error-rate estimate.",
         "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
         "before_label": "Seedance 2.0 Fast (direct)",
         "after_label": "PhysLoop",
         "before": "media/comparisons-sd20-fast-20261016/t2v_box_balance/direct.mp4",
         "after": "media/cases-20261015/cases/t2v_box_balance/final.mp4",
         "before_poster": "media/comparisons-sd20-fast-20261016/t2v_box_balance/direct.jpg",
-        "after_poster": "media/cases-20261015/cases/t2v_box_balance/poster.jpg",
+        "after_poster": "media/reviewed-20261017/97464857712e2e85cfebf07edfebfd04b56a6c6edb647c4f0d0f8ed4505ceb9e.jpg",
         "time_aligned": false,
         "input_protocol_before": "Exact website task text, direct text-to-video; no simulator guide or PhysLoop reference video.",
-        "input_protocol_after": "Selected PhysLoop result with simulator guidance and Seedance refinement. Independent timeline.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
         "baseline_source": {
           "model": "doubao-seedance-2-0-fast-260128",
-          "provider_task_id": "cgt-20261016013934-fgvt5",
-          "source_sha256": "89f61c1f391ad5167822f11db3d4b3cfbc57e887c2e8f4833b5c32d9bbb1c4fa",
+          "task_id": "cgt-20261016013934-fgvt5",
           "seed": 2026101602,
-          "prompt": "Release two stacks of five open cardboard cartons on a wooden platform: one aligned and one offset. Let gravity and contact determine which stack remains stable.",
-          "sampling": "One predeclared initial sample per case; two robot actor-clarification samples retained separately.",
-          "error_kind": "instruction_count",
-          "evidence_interval_s": [
-            0.0,
-            2.0
-          ]
+          "sha256": "89f61c1f391ad5167822f11db3d4b3cfbc57e887c2e8f4833b5c32d9bbb1c4fa",
+          "review_status": "user_kept",
+          "playback_sha256": "89f61c1f391ad5167822f11db3d4b3cfbc57e887c2e8f4833b5c32d9bbb1c4fa"
         }
       }
     },
@@ -191,69 +268,127 @@
       "case_id": "t2v_c012",
       "category": "text_to_video",
       "title": "Cloth over a collapsing stack",
-      "prompt": "ICLR Core80 formal sample 080 / C012. A cloth covers a three-body metal, wood, and ceramic stack on an oak table. A fixed horseshoe magnet attracts and removes the steel base; the rigid stack collapses and its audited transforms act as one-way colliders, causing the cloth to slide and settle onto the tabletop. Show the full coupled sequence for at least six seconds with synchronized RGB, depth, and instance segmentation, then stop after formal Smoke for human review. Only the exact horseshoe magnet's explicit red material override is reaffirmed; cloth, stack, collision, and motion remain unchanged. Stop after formal Smoke for human review.",
       "prompt_english": "A horseshoe magnet removes the steel base of a covered stack. The stack collapses and the cloth slides and settles on the tabletop.",
       "method": "Text request → native simulation → appearance refinement",
       "delivery_tier": "core12",
       "duration_s": 6.041667,
-      "source": {
-        "source_case_id": "C012",
-        "source_job_id": "job_iclr_core80_080_c012_gpt56_s5_source_material",
-        "provider": "Ark Seedance",
-        "model": "ep-20260916182832-cx8n2",
-        "provider_task_id": "cgt-20261011213955-uw51m"
-      },
+      "prompt": "A horseshoe magnet removes the steel base of a covered stack. The stack collapses and the cloth slides and settles on the tabletop.",
       "video": "media/cases-20261015/cases/t2v_c012/final.mp4",
-      "poster": "media/cases-20261015/cases/t2v_c012/poster.jpg",
-      "views": [],
-      "input_image": null,
-      "comparison": null
+      "poster": "media/reviewed-20261017/d1fc97dbdeeb48307fe9051a12ac9cb4ab1333c2f8356f382bab9fd8fa6e03e1.jpg",
+      "source": {
+        "model": "ep-20260916182832-cx8n2",
+        "task_id": "cgt-20261011213955-uw51m",
+        "sha256": "d417a11d9f394504eaa4c2a2f0b64def0e0405ca20a56a87c2aa30e2a62d8d54",
+        "review_status": "user_kept"
+      },
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/reviewed-20261017/2200d26d4a963bd6e148d5de47853b8f5787e72df94dafe3f4c536e650bd9216.mp4",
+          "poster": "media/reviewed-20261017/6c1573fb844179e9bb4d5e6d6dadbfd9327b271e8e78eae8f85ae28f1e256630.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261017040108-ml1cs",
+          "source_sha256": "2200d26d4a963bd6e148d5de47853b8f5787e72df94dafe3f4c536e650bd9216",
+          "playback_sha256": "2200d26d4a963bd6e148d5de47853b8f5787e72df94dafe3f4c536e650bd9216",
+          "review_status": "candidate_pending_user_review"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/reviewed-20261017/3fe47d37f44329ed92c878c276c1b0d8bdf8774b7d51c5ff95fb5ad29de12640.mp4",
+          "poster": "media/reviewed-20261017/6bd737d91f9bc8a5f1768c1c8abca468dd65e6143eec43695f0855ecc6345c83.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261017040124-65ibn",
+          "source_sha256": "3fe47d37f44329ed92c878c276c1b0d8bdf8774b7d51c5ff95fb5ad29de12640",
+          "playback_sha256": "3fe47d37f44329ed92c878c276c1b0d8bdf8774b7d51c5ff95fb5ad29de12640",
+          "review_status": "candidate_pending_user_review"
+        }
+      ],
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/reviewed-20261017/ac9c6ca5394c29f2e9dc435686a4195a6992495452c96fd82b5939f8b1bacd59.mp4",
+        "after": "media/cases-20261015/cases/t2v_c012/final.mp4",
+        "before_poster": "media/reviewed-20261017/2dc1b1f8b1d6f1c356fc97434d87e06bc03c220a4c19013f24c7aaa7ec14827d.jpg",
+        "after_poster": "media/reviewed-20261017/d1fc97dbdeeb48307fe9051a12ac9cb4ab1333c2f8356f382bab9fd8fa6e03e1.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Exact website task text, direct text-to-video; no simulator guide or PhysLoop reference video.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "task_id": "cgt-20261016013933-xbgx8",
+          "seed": 2026101603,
+          "sha256": "ac9c6ca5394c29f2e9dc435686a4195a6992495452c96fd82b5939f8b1bacd59",
+          "review_status": "user_kept",
+          "playback_sha256": "ac9c6ca5394c29f2e9dc435686a4195a6992495452c96fd82b5939f8b1bacd59"
+        }
+      }
     },
     {
       "case_id": "t2v_i001",
       "category": "text_to_video",
       "title": "Ball–domino–seesaw chain",
-      "prompt": "I001精修：用户允许小斜球座引导入桶。在单连续木斜轨、两支撑、6骨牌、水平跷跷板与真实木桶的现有装置上，恢复小斜球座，并只保留窄的实体固定止挡支撑初始球；不保留宽大挡板。红球真实滚落推动骨牌链，末骨牌压下跷跷板，使蓝球通过实体接触被斜球座向桶发射并留在桶内。初始稳定，不加定时锁定、发射外力或写死轨迹。使用修复后的碰撞中心配准；先preview/Smoke审核，旧版保留，人审前不SD或Candidate。",
       "prompt_english": "A red ball rolls down a wooden ramp, topples six dominoes and actuates a seesaw that launches a blue ball toward a small bucket.",
       "method": "Text request → native simulation → appearance refinement",
       "delivery_tier": "core12",
       "duration_s": 6.041667,
-      "source": {
-        "source_case_id": "I001",
-        "source_job_id": "job_refine22_i001_v3_20261011",
-        "provider": "Ark Seedance",
-        "model": "ep-20260916182832-cx8n2",
-        "provider_task_id": "cgt-20261011213955-1djfu"
-      },
+      "prompt": "A red ball rolls down a wooden ramp, topples six dominoes and actuates a seesaw that launches a blue ball toward a small bucket.",
       "video": "media/cases-20261015/cases/t2v_i001/final.mp4",
-      "poster": "media/cases-20261015/cases/t2v_i001/poster.jpg",
-      "views": [],
-      "input_image": null,
+      "poster": "media/reviewed-20261017/c6f89ac9470062d3afd0664f1add0fc8337eebd6204170ffe62d3dde81bd2dea.jpg",
+      "source": {
+        "model": "ep-20260916182832-cx8n2",
+        "task_id": "cgt-20261011213955-1djfu",
+        "sha256": "9a21aa3193966a0fbef90dfde9c3edaa829999dfc6243e872af079f5f5bc7c61",
+        "review_status": "user_kept"
+      },
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/reviewed-20261017/d8f2a3e69843357d74005045302cd5d6ffe524806f0b658b8000b0fe1f9b86e7.mp4",
+          "poster": "media/reviewed-20261017/56058e1c66171ebffc80d75e9be7513c4f6e4c7ea544cea96ba133a1b080a019.jpg",
+          "model": "doubao-sd-video-2.5",
+          "provider_task_id": "cgt-20261016191915-12goh",
+          "source_sha256": "d8f2a3e69843357d74005045302cd5d6ffe524806f0b658b8000b0fe1f9b86e7",
+          "playback_sha256": "d8f2a3e69843357d74005045302cd5d6ffe524806f0b658b8000b0fe1f9b86e7",
+          "review_status": "user_kept"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/reviewed-20261017/75b8205dd0763f2e9dad8efb77e9a448780594c9cc7b8ab9fb1bc242263959e4.mp4",
+          "poster": "media/reviewed-20261017/774f7c1adc216ec2cb4cbc42e6d8524bb62428d2e399f6d67e2ffdcc8cc85d50.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261016162527-3w6ok",
+          "source_sha256": "75b8205dd0763f2e9dad8efb77e9a448780594c9cc7b8ab9fb1bc242263959e4",
+          "playback_sha256": "75b8205dd0763f2e9dad8efb77e9a448780594c9cc7b8ab9fb1bc242263959e4",
+          "review_status": "user_kept"
+        }
+      ],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
-        "description": "The direct sample adds dominoes beyond the requested six. Qualitatively selected example; this is not an error-rate estimate.",
         "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
         "before_label": "Seedance 2.0 Fast (direct)",
         "after_label": "PhysLoop",
         "before": "media/comparisons-sd20-fast-20261016/t2v_i001/direct.mp4",
         "after": "media/cases-20261015/cases/t2v_i001/final.mp4",
         "before_poster": "media/comparisons-sd20-fast-20261016/t2v_i001/direct.jpg",
-        "after_poster": "media/cases-20261015/cases/t2v_i001/poster.jpg",
+        "after_poster": "media/reviewed-20261017/c6f89ac9470062d3afd0664f1add0fc8337eebd6204170ffe62d3dde81bd2dea.jpg",
         "time_aligned": false,
         "input_protocol_before": "Exact website task text, direct text-to-video; no simulator guide or PhysLoop reference video.",
-        "input_protocol_after": "Selected PhysLoop result with simulator guidance and Seedance refinement. Independent timeline.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
         "baseline_source": {
           "model": "doubao-seedance-2-0-fast-260128",
-          "provider_task_id": "cgt-20261016013934-wlnpb",
-          "source_sha256": "7d2220a26d7f72ab6093d1b2d51b006a36d67ffc6de340d24152290e8789715c",
+          "task_id": "cgt-20261016013934-wlnpb",
           "seed": 2026101604,
-          "prompt": "A red ball rolls down a wooden ramp, topples six dominoes and actuates a seesaw that launches a blue ball toward a small bucket.",
-          "sampling": "One predeclared initial sample per case; two robot actor-clarification samples retained separately.",
-          "error_kind": "instruction_count",
-          "evidence_interval_s": [
-            1.5,
-            3.0
-          ]
+          "sha256": "7d2220a26d7f72ab6093d1b2d51b006a36d67ffc6de340d24152290e8789715c",
+          "review_status": "user_kept",
+          "playback_sha256": "7d2220a26d7f72ab6093d1b2d51b006a36d67ffc6de340d24152290e8789715c"
         }
       }
     },
@@ -261,251 +396,443 @@
       "case_id": "i2v_paper_paddle",
       "category": "image_to_video",
       "title": "Paddle-wheel chain reaction",
-      "prompt": "落球驱动叶轮并拨出第二球：钢球从短斜槽落到六叶刚体叶轮的一片叶片上；叶轮绕水平轴旋转，另一片叶片随后拨出托架上的彩色球，使其沿短坡落入收纳篮",
       "prompt_english": "A falling ball turns a paddle wheel, releasing a second ball down a ramp into the basket.",
       "method": "PhysLoop scene guide with Seedance refinement",
       "delivery_tier": "website_selection",
       "duration_s": 6.041667,
+      "prompt": "A falling ball turns a paddle wheel, releasing a second ball down a ramp into the basket.",
+      "video": "media/reviewed-20261017/06f8a0dc1bfede4d0330ad6a63ed44c6477f5c6d8b32b9596549477287ee43d5.mp4",
+      "poster": "media/reviewed-20261017/4ef9f60ca038aba83df8a6dd11bbc9e8bb040f61f2a65dd93227cd54ef4f7576.jpg",
       "source": {
-        "source_case_id": "I011",
-        "source_job_id": "job_iclr_textimage_i011_gpt56_s12_complete_catcher",
-        "provider": "Ark Seedance",
         "model": "ep-20260916182832-cx8n2",
-        "provider_task_id": "cgt-20261011164055-4qncq",
-        "reference_video_used": true,
-        "paper_example": true
+        "task_id": "cgt-20261011164055-4qncq",
+        "sha256": "06f8a0dc1bfede4d0330ad6a63ed44c6477f5c6d8b32b9596549477287ee43d5",
+        "review_status": "user_kept",
+        "reviewed_source_sha256": "d56a66623c2d3cbd17060281b44847e861a1b999dfa06faedb7462d8ec037d5d"
       },
-      "video": "media/cases-20261015-revision/i2v_paper_paddle/final.mp4",
-      "poster": "media/cases-20261015-revision/i2v_paper_paddle/poster.jpg",
-      "input_image": {
-        "image": "media/cases-20261015-revision/i2v_paper_paddle/input.png",
-        "kind": "actual_condition_image",
-        "role": "Original image-conditioned task input",
-        "sha256": "3fc5a3eee2172397a0fd61cce37c8e584fcc358f399e0a56b21dd7995c95ad4b"
-      },
-      "views": [],
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/reviewed-20261017/1e689b3746bb1962575c5d3c57252250f23ceea8f9b3ab1010404c28c443fa52.mp4",
+          "poster": "media/reviewed-20261017/9c7833f5452d8143ef21b92bf29daf708844717cfa778cce3f2c31f3d6e0a3a6.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261017040141-f1j13",
+          "source_sha256": "1e689b3746bb1962575c5d3c57252250f23ceea8f9b3ab1010404c28c443fa52",
+          "playback_sha256": "1e689b3746bb1962575c5d3c57252250f23ceea8f9b3ab1010404c28c443fa52",
+          "review_status": "candidate_pending_user_review"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/reviewed-20261017/7f0c4e29f61954edeb5415a549f29524cdec853e297776096773ba0d40733724.mp4",
+          "poster": "media/reviewed-20261017/8ee5bdc85a01d0b1308ca6592776056b15bae41588a3f8c99c7f57d60e268786.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261017040159-e1rcv",
+          "source_sha256": "7f0c4e29f61954edeb5415a549f29524cdec853e297776096773ba0d40733724",
+          "playback_sha256": "7f0c4e29f61954edeb5415a549f29524cdec853e297776096773ba0d40733724",
+          "review_status": "candidate_pending_user_review"
+        }
+      ],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
-        "description": "The direct model introduces an extra blue ball in the mechanism.",
         "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
         "before_label": "Gemini Omni (direct)",
         "after_label": "PhysLoop",
         "before": "media/cases-20261015-revision/i2v_paper_paddle/comparison/direct.mp4",
-        "after": "media/cases-20261015-revision/i2v_paper_paddle/final.mp4",
+        "after": "media/reviewed-20261017/06f8a0dc1bfede4d0330ad6a63ed44c6477f5c6d8b32b9596549477287ee43d5.mp4",
         "before_poster": "media/cases-20261015-revision/i2v_paper_paddle/comparison/direct.jpg",
-        "after_poster": "media/cases-20261015-revision/i2v_paper_paddle/poster.jpg",
+        "after_poster": "media/reviewed-20261017/4ef9f60ca038aba83df8a6dd11bbc9e8bb040f61f2a65dd93227cd54ef4f7576.jpg",
         "time_aligned": false,
         "input_protocol_before": "Original task prompt and task image; no simulator guide",
-        "input_protocol_after": "Same task with a simulator motion guide and Seedance refinement",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
         "baseline_source": {
           "model": "Gemini Omni",
-          "setting": "01_prompt_gemini",
-          "source_sha256": "f7af720f1614aa7bf7927f170eaf02f8fbbf852e16faf50baf98fd8ee6e9accb",
-          "source_case_id": "I011"
+          "task_id": null,
+          "seed": null,
+          "sha256": "f7af720f1614aa7bf7927f170eaf02f8fbbf852e16faf50baf98fd8ee6e9accb",
+          "review_status": "user_kept",
+          "playback_sha256": "f7af720f1614aa7bf7927f170eaf02f8fbbf852e16faf50baf98fd8ee6e9accb"
         }
+      },
+      "input_image": {
+        "image": "media/cases-20261015-revision/i2v_paper_paddle/input.png"
       }
     },
     {
       "case_id": "i2v_piq_0157",
       "category": "image_to_video",
       "title": "Silk covers a teapot",
-      "prompt": "Static locked-off single-shot with fixed frame throughout filmed with constant framerate in real-time. The scene shows a realistic scientific demonstration. The scene only contains the described setup and actions. The teapot is on a wooden table. The piece of silk fabric is lowered over the teapot and covers it.",
       "prompt_english": "A silk cloth settles over the teapot and follows its shape.",
       "method": "PhysLoop scene guide with Seedance refinement",
       "delivery_tier": "website_selection",
       "duration_s": 5.0,
-      "source": {
-        "source_case_id": "0157",
-        "dataset": "Physics-IQ Verified",
-        "provider": "Ark Seedance",
-        "model": "ep-20260916182832-cx8n2",
-        "provider_task_id": "cgt-20260919232034-p50fd",
-        "reference_video_used": true
-      },
+      "prompt": "A silk cloth settles over the teapot and follows its shape.",
       "video": "media/cases-20261015-revision/i2v_piq_0157/final.mp4",
-      "poster": "media/cases-20261015-revision/i2v_piq_0157/poster.jpg",
-      "input_image": {
-        "image": "media/cases-20261015-revision/i2v_piq_0157/input.jpg",
-        "kind": "actual_condition_image",
-        "role": "Original Physics-IQ switch image",
-        "sha256": "e9a48ce2fa8e01b79b2617c3b55b919da9f591e2ed55e49191b2ebbfa6334395"
+      "poster": "media/reviewed-20261017/50a01d726b40a08523da4626bf0abdebc22abe70a24e08ad126a8238d60167f0.jpg",
+      "source": {
+        "model": "ep-20260916182832-cx8n2",
+        "task_id": "cgt-20260919232034-p50fd",
+        "sha256": "e9d9a71fc8333dcbfe617d0c61bd33ce6f1ccb97d3122a7f8dc83f224b4add36",
+        "review_status": "user_kept"
       },
-      "views": [],
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/reviewed-20261017/e98dd75c30a8f3bf587f7875076645ff3234423589682c3e20f272951ef03380.mp4",
+          "poster": "media/reviewed-20261017/2561f87e0c33bf57d2ab258f20f7fe57f77afd8ee9c09ec47c4bc4a1e896a27d.jpg",
+          "model": "doubao-sd-video-2.5",
+          "provider_task_id": "cgt-20261017030129-yh2l6",
+          "source_sha256": "e98dd75c30a8f3bf587f7875076645ff3234423589682c3e20f272951ef03380",
+          "playback_sha256": "e98dd75c30a8f3bf587f7875076645ff3234423589682c3e20f272951ef03380",
+          "review_status": "candidate_pending_user_review"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/reviewed-20261017/e89748880bed5756fd1f7cd15729596c034851fb1bae1e8886f994a540d3eb1a.mp4",
+          "poster": "media/reviewed-20261017/e62319aca8569aec47784879f491c2adbf08c239c76b1f7a60e423d3339a4174.jpg",
+          "model": "doubao-sd-video-2.5",
+          "provider_task_id": "cgt-20261017030134-bputx",
+          "source_sha256": "e89748880bed5756fd1f7cd15729596c034851fb1bae1e8886f994a540d3eb1a",
+          "playback_sha256": "e89748880bed5756fd1f7cd15729596c034851fb1bae1e8886f994a540d3eb1a",
+          "review_status": "candidate_pending_user_review"
+        }
+      ],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
-        "description": "The silk becomes translucent as it settles, revealing the teapot pattern through the fabric. Qualitatively selected example; this is not an error-rate estimate.",
         "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
         "before_label": "Seedance 2.0 Fast (direct)",
         "after_label": "PhysLoop",
         "before": "media/comparisons-sd20-fast-20261016/i2v_piq_0157/direct.mp4",
         "after": "media/cases-20261015-revision/i2v_piq_0157/final.mp4",
         "before_poster": "media/comparisons-sd20-fast-20261016/i2v_piq_0157/direct.jpg",
-        "after_poster": "media/cases-20261015-revision/i2v_piq_0157/poster.jpg",
+        "after_poster": "media/reviewed-20261017/50a01d726b40a08523da4626bf0abdebc22abe70a24e08ad126a8238d60167f0.jpg",
         "time_aligned": false,
         "input_protocol_before": "Exact website task text and actual image-to-video input image; no simulator guide or reference video.",
-        "input_protocol_after": "Selected PhysLoop result with simulator guidance and Seedance refinement. Independent timeline.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
         "baseline_source": {
           "model": "doubao-seedance-2-0-fast-260128",
-          "provider_task_id": "cgt-20261016013934-tb4rv",
-          "source_sha256": "9a20cbdffb9cf8d12a3d91132fc6ad21bfe95a41f35cdf322f898eefca589673",
+          "task_id": "cgt-20261016013934-tb4rv",
           "seed": 2026101605,
-          "prompt": "A silk cloth settles over the teapot and follows its shape.",
-          "sampling": "One predeclared initial sample per case; two robot actor-clarification samples retained separately.",
-          "error_kind": "material_consistency",
-          "evidence_interval_s": [
-            3.3,
-            5.0
-          ]
+          "sha256": "9a20cbdffb9cf8d12a3d91132fc6ad21bfe95a41f35cdf322f898eefca589673",
+          "review_status": "user_kept",
+          "playback_sha256": "9a20cbdffb9cf8d12a3d91132fc6ad21bfe95a41f35cdf322f898eefca589673"
         }
+      },
+      "input_image": {
+        "image": "media/cases-20261015-revision/i2v_piq_0157/input.jpg"
       }
     },
     {
       "case_id": "i2v_piq_0064",
       "category": "image_to_video",
       "title": "Pouring a red drink",
-      "prompt": "Static locked-off single-shot with fixed frame throughout filmed with constant framerate in real-time. The scene shows a realistic scientific demonstration. The scene only contains the described setup and actions. The glass beverage dispenser sits on a woven basket. The glass beverage dispenser pours the bright red liquid into a clear glass.",
       "prompt_english": "A beverage dispenser pours red liquid into a clear glass.",
       "method": "PhysLoop scene guide with Seedance refinement",
       "delivery_tier": "website_selection",
       "duration_s": 5.0,
-      "source": {
-        "source_case_id": "0064",
-        "dataset": "Physics-IQ Verified",
-        "provider": "Ark Seedance",
-        "model": "ep-20260916182832-cx8n2",
-        "provider_task_id": "cgt-20260922215514-8g2lj",
-        "reference_video_used": true
-      },
+      "prompt": "A beverage dispenser pours red liquid into a clear glass.",
       "video": "media/cases-20261015-revision/i2v_piq_0064/final.mp4",
-      "poster": "media/cases-20261015-revision/i2v_piq_0064/poster.jpg",
-      "input_image": {
-        "image": "media/cases-20261015-revision/i2v_piq_0064/input.jpg",
-        "kind": "actual_condition_image",
-        "role": "Original Physics-IQ switch image",
-        "sha256": "ee017fc0502b67e83b8a3a804ea956fc29bf3aaef9b7d2fb02c37dcc0eb1597e"
+      "poster": "media/reviewed-20261017/5ece816e2778b8b6a53c8cef58031ebea328c79941b044ea255fbade8c7eb7bd.jpg",
+      "source": {
+        "model": "ep-20260916182832-cx8n2",
+        "task_id": "cgt-20260922215514-8g2lj",
+        "sha256": "3d4c760c93bf0b4becca17661968f9b8882bb4b5ba0b2956647cf4ae7d27a370",
+        "review_status": "user_kept"
       },
-      "views": [],
-      "comparison": null
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/reviewed-20261017/b3b15f37f9b4f042763521a1a0bf54d20785ee86e4025a1595dd2b84c842e3e0.mp4",
+          "poster": "media/reviewed-20261017/fa4be99e14ed4065549a942c0134b8d97ee0fe82d81565ed058e3a39ebf2e56f.jpg",
+          "model": "doubao-sd-video-2.5",
+          "provider_task_id": "cgt-20261016191913-gr46i",
+          "source_sha256": "b3b15f37f9b4f042763521a1a0bf54d20785ee86e4025a1595dd2b84c842e3e0",
+          "playback_sha256": "b3b15f37f9b4f042763521a1a0bf54d20785ee86e4025a1595dd2b84c842e3e0",
+          "review_status": "user_kept"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/views-20261015/i2v_piq_0064/i2v_piq_0064_high_oblique_refined.mp4",
+          "poster": "media/reviewed-20261017/946b4f860b3e611b5ea98421178f8c5e0e42ee94b30554da2d1c05be21a1d6b8.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261015234756-inqu0",
+          "source_sha256": "5eea3baf51b78747f750dba22671818fedd29444b5596bbbceb791cb7c4be4ed",
+          "playback_sha256": "5eea3baf51b78747f750dba22671818fedd29444b5596bbbceb791cb7c4be4ed",
+          "review_status": "user_kept"
+        }
+      ],
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/reviewed-20261017/be84facecc5718e0e911741a97b308714f145587b298abd5ccfab4cbb632061f.mp4",
+        "after": "media/cases-20261015-revision/i2v_piq_0064/final.mp4",
+        "before_poster": "media/reviewed-20261017/330ccc83d81adeca60b123906edd9f6bac473397da4d7ba182bc9f3188629665.jpg",
+        "after_poster": "media/reviewed-20261017/5ece816e2778b8b6a53c8cef58031ebea328c79941b044ea255fbade8c7eb7bd.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Exact website task text and actual image-to-video input image; no simulator guide or reference video.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "task_id": "cgt-20261016013934-swdr4",
+          "seed": 2026101606,
+          "sha256": "be84facecc5718e0e911741a97b308714f145587b298abd5ccfab4cbb632061f",
+          "review_status": "user_kept",
+          "playback_sha256": "be84facecc5718e0e911741a97b308714f145587b298abd5ccfab4cbb632061f"
+        }
+      },
+      "input_image": {
+        "image": "media/cases-20261015-revision/i2v_piq_0064/input.jpg"
+      }
     },
     {
       "case_id": "i2v_piq_0031",
       "category": "image_to_video",
       "title": "Two tennis balls collide",
-      "prompt": "Static locked-off single-shot with fixed frame throughout filmed with constant framerate in real-time. The scene shows a realistic scientific demonstration. The scene only contains the described setup and actions. A light-colored wooden tabletop with two pipes at the edges. The blue and the yellow tennis ball roll out of the pipes and collide with the same speed.",
       "prompt_english": "A blue ball and a yellow ball roll from opposite pipes, meet and separate.",
       "method": "PhysLoop scene guide with Seedance refinement",
       "delivery_tier": "website_selection",
       "duration_s": 5.0,
-      "source": {
-        "source_case_id": "0031",
-        "dataset": "Physics-IQ Verified",
-        "provider": "Ark Seedance",
-        "model": "ep-20260916182832-cx8n2",
-        "provider_task_id": "cgt-20260918161702-yxgsr",
-        "reference_video_used": true
-      },
+      "prompt": "A blue ball and a yellow ball roll from opposite pipes, meet and separate.",
       "video": "media/cases-20261015-revision/i2v_piq_0031/final.mp4",
-      "poster": "media/cases-20261015-revision/i2v_piq_0031/poster.jpg",
-      "input_image": {
-        "image": "media/cases-20261015-revision/i2v_piq_0031/input.jpg",
-        "kind": "actual_condition_image",
-        "role": "Original Physics-IQ switch image",
-        "sha256": "7bb37bd4fedd4013f3d137a2f9edcbb440e456c7a617a1b6c2fea4db525566de"
+      "poster": "media/reviewed-20261017/7bfe32f7603395ab44ba74a1c347a2e77a758462c241e5068cd67cbaad4f11fc.jpg",
+      "source": {
+        "model": "ep-20260916182832-cx8n2",
+        "task_id": "cgt-20260918161702-yxgsr",
+        "sha256": "30a4f8617f179a0ba2155ec41ce6356b00f61e22a4ef952fa362ca7f84f0f9c0",
+        "review_status": "user_kept"
       },
-      "views": [],
-      "comparison": null
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/views-20261015/i2v_piq_0031/i2v_piq_0031_lateral_conditioned_v2.mp4",
+          "poster": "media/reviewed-20261017/1d731a9cc2dd99cba18bc063bd0095307710e642e1bf2960dfc49858342ef089.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261016000159-70vpm",
+          "source_sha256": "b86cbc3cd3b9269f69fadb82d6afd841b85918ce2dea9ed0d284e888a1526ca7",
+          "playback_sha256": "b86cbc3cd3b9269f69fadb82d6afd841b85918ce2dea9ed0d284e888a1526ca7",
+          "review_status": "user_kept"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/views-20261015/i2v_piq_0031/i2v_piq_0031_overhead_conditioned_v2.mp4",
+          "poster": "media/reviewed-20261017/47cc41a43c73276b63d497af9a92e024cff85efadc7bd1157eead5537d190e53.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261016000159-elzq1",
+          "source_sha256": "fd9e9e9eac1d96f21678e901700c0435e11e784425fdd942d14d2935bfc17cd1",
+          "playback_sha256": "fd9e9e9eac1d96f21678e901700c0435e11e784425fdd942d14d2935bfc17cd1",
+          "review_status": "user_kept"
+        }
+      ],
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/reviewed-20261017/78389892dbbe6e696f614a455ef88f85c1cb6c55dc4254d5a3a0b507d7a532c6.mp4",
+        "after": "media/cases-20261015-revision/i2v_piq_0031/final.mp4",
+        "before_poster": "media/reviewed-20261017/c4835e01996b62d2aa8b7cd923aef6bce019dd3683bb00d5dc93f0b17c5997a0.jpg",
+        "after_poster": "media/reviewed-20261017/7bfe32f7603395ab44ba74a1c347a2e77a758462c241e5068cd67cbaad4f11fc.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Exact website task text and actual image-to-video input image; no simulator guide or reference video.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "task_id": "cgt-20261016013935-sqwsz",
+          "seed": 2026101607,
+          "sha256": "78389892dbbe6e696f614a455ef88f85c1cb6c55dc4254d5a3a0b507d7a532c6",
+          "review_status": "user_kept",
+          "playback_sha256": "78389892dbbe6e696f614a455ef88f85c1cb6c55dc4254d5a3a0b507d7a532c6"
+        }
+      },
+      "input_image": {
+        "image": "media/cases-20261015-revision/i2v_piq_0031/input.jpg"
+      }
     },
     {
       "case_id": "i2v_piq_0007",
       "category": "image_to_video",
       "title": "Tennis ball hits a rubber duck",
-      "prompt": "Static locked-off single-shot with fixed frame throughout filmed with constant framerate in real-time. The scene shows a realistic scientific demonstration. The scene only contains the described setup and actions. A light beige coffee table with a small yellow rubber duck on it. A mustard yellow couch is in the background. There is a black pipe that points from the left side to the right side of the table. The brown tennis ball rolls straight out of the black pipe and hits the rubber duck.",
       "prompt_english": "A brown tennis ball rolls out of a black pipe and contacts the yellow rubber duck on a coffee table.",
       "method": "Condition image → scene/motion guide → Seedance",
       "delivery_tier": "core12",
       "duration_s": 5.0,
-      "source": {
-        "source_case_id": "0007",
-        "dataset": "Physics-IQ Verified",
-        "provider": "Ark Seedance",
-        "model": "ep-20260916182832-cx8n2",
-        "provider_task_id": "cgt-20260918141340-7p7d2"
-      },
+      "prompt": "A brown tennis ball rolls out of a black pipe and contacts the yellow rubber duck on a coffee table.",
       "video": "media/cases-20261015/cases/i2v_piq_0007/final.mp4",
-      "poster": "media/cases-20261015/cases/i2v_piq_0007/poster.jpg",
-      "views": [],
-      "input_image": {
-        "image": "media/cases-20261015/cases/i2v_piq_0007/input.jpg",
-        "kind": "actual_condition_image",
-        "role": "Original switch frame; image supplied upstream and used for appearance restoration.",
-        "sha256": "89cf91436a8e3779cd94cbfd612cda89dced53a1fa42f11d2e879bd4d84f6ec0"
+      "poster": "media/reviewed-20261017/f7b8df16f7e5017c9c5f491eb36f9c64147e2a9cdff30a29987f2047f4d62ca4.jpg",
+      "source": {
+        "model": "ep-20260916182832-cx8n2",
+        "task_id": "cgt-20260918141340-7p7d2",
+        "sha256": "f9ea42b41312345ba2aca586ddf330effb3be0fa54ecf5aca8eb599279ebf3c5",
+        "review_status": "user_kept"
       },
-      "comparison": null
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/reviewed-20261017/e5ea69955a32013be835f5479f7264106a9114d2627deb35d75ebca87f0a610f.mp4",
+          "poster": "media/reviewed-20261017/03376cb85d2129e95994978d8d081a0930a1807bf6ff95b38c8a0fecd20aee91.jpg",
+          "model": "doubao-sd-video-2.5",
+          "provider_task_id": "cgt-20261017030243-n7g40",
+          "source_sha256": "e5ea69955a32013be835f5479f7264106a9114d2627deb35d75ebca87f0a610f",
+          "playback_sha256": "e5ea69955a32013be835f5479f7264106a9114d2627deb35d75ebca87f0a610f",
+          "review_status": "candidate_pending_user_review"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/reviewed-20261017/63ff44797ea6d2e77dd29f9c35450ec698ee6c73467812cab6f82e364c2d0c2d.mp4",
+          "poster": "media/reviewed-20261017/13a706582158ecd07a8d8d7a0511fba84b72378f2bbc750bc13c421c5c484d26.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261017040630-8m8i2",
+          "source_sha256": "63ff44797ea6d2e77dd29f9c35450ec698ee6c73467812cab6f82e364c2d0c2d",
+          "playback_sha256": "63ff44797ea6d2e77dd29f9c35450ec698ee6c73467812cab6f82e364c2d0c2d",
+          "review_status": "candidate_pending_user_review"
+        }
+      ],
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/reviewed-20261017/e0d24221b9e65ea3be981cd51bc2be10a4f948898f1f32424be59dbd177d5554.mp4",
+        "after": "media/cases-20261015/cases/i2v_piq_0007/final.mp4",
+        "before_poster": "media/reviewed-20261017/74568775ccc46cb9caf5f741bed733e0134712d9755a3cd551345a02cbe1bfbd.jpg",
+        "after_poster": "media/reviewed-20261017/f7b8df16f7e5017c9c5f491eb36f9c64147e2a9cdff30a29987f2047f4d62ca4.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Exact website task text and actual image-to-video input image; no simulator guide or reference video.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "task_id": "cgt-20261016013935-mp7wm",
+          "seed": 2026101608,
+          "sha256": "e0d24221b9e65ea3be981cd51bc2be10a4f948898f1f32424be59dbd177d5554",
+          "review_status": "user_kept",
+          "playback_sha256": "e0d24221b9e65ea3be981cd51bc2be10a4f948898f1f32424be59dbd177d5554"
+        }
+      },
+      "input_image": {
+        "image": "media/cases-20261015/cases/i2v_piq_0007/input.jpg"
+      }
     },
     {
       "case_id": "i2v_piq_0019",
       "category": "image_to_video",
       "title": "Tennis ball climbs a ramp",
-      "prompt": "Static locked-off single-shot with fixed frame throughout filmed with constant framerate in real-time. The scene shows a realistic scientific demonstration. The scene only contains the described setup and actions. A simple ramp made of cardboard, propped up by a blue block on a light-colored wooden table. There's a black pipe to the left of the frame that directly points towards it. The yellow tennis ball rolls straight out of the black pipe onto the ramp.",
       "prompt_english": "A yellow tennis ball rolls out of a black pipe and climbs a cardboard ramp supported by a blue block.",
       "method": "Condition image → scene/motion guide → Seedance",
       "delivery_tier": "core12",
       "duration_s": 5.0,
-      "source": {
-        "source_case_id": "0019",
-        "dataset": "Physics-IQ Verified",
-        "provider": "Ark Seedance",
-        "model": "ep-20260916182832-cx8n2",
-        "provider_task_id": "cgt-20260918194318-6yl3i"
-      },
+      "prompt": "A yellow tennis ball rolls out of a black pipe and climbs a cardboard ramp supported by a blue block.",
       "video": "media/cases-20261015/cases/i2v_piq_0019/final.mp4",
-      "poster": "media/cases-20261015/cases/i2v_piq_0019/poster.jpg",
-      "views": [],
-      "input_image": {
-        "image": "media/cases-20261015/cases/i2v_piq_0019/input.jpg",
-        "kind": "actual_condition_image",
-        "role": "Original switch frame; image supplied upstream and used for appearance restoration.",
-        "sha256": "6e08ef103b05fa466b5f9935d12141584bec8a87a63f7f72199470ab024fcbfb"
+      "poster": "media/reviewed-20261017/ebb42b8e817e746e660f676731a6d07470fff69011154b822e4a80e5ddfeb09b.jpg",
+      "source": {
+        "model": "ep-20260916182832-cx8n2",
+        "task_id": "cgt-20260918194318-6yl3i",
+        "sha256": "a55c80c338bb740a4b6734390959cad34594f9107d49f2ee4d96700f405ed268",
+        "review_status": "user_kept"
       },
-      "comparison": null
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/reviewed-20261017/718065fb889c6142f480fcc114a74d9cae46f32971c42a0762b57c3a97830c73.mp4",
+          "poster": "media/reviewed-20261017/d067f6abf8f992045c7ce6730fec9e173d16280c5c3fedd5d40025cb266315df.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261017145500-gbhfs",
+          "source_sha256": "718065fb889c6142f480fcc114a74d9cae46f32971c42a0762b57c3a97830c73",
+          "playback_sha256": "718065fb889c6142f480fcc114a74d9cae46f32971c42a0762b57c3a97830c73",
+          "review_status": "candidate_pending_user_review"
+        },
+        {
+          "label": "High / top view",
+          "camera": "top",
+          "video": "media/reviewed-20261017/2d1d9b19fadba0559cd49d9ec41dd49aac4955875de1aa2586e45b516349b0d6.mp4",
+          "poster": "media/reviewed-20261017/f94c176161333432f82795b9f15c796ee8a2034f94041e1c420770d257cc37fa.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261017145513-7s7du",
+          "source_sha256": "2d1d9b19fadba0559cd49d9ec41dd49aac4955875de1aa2586e45b516349b0d6",
+          "playback_sha256": "2d1d9b19fadba0559cd49d9ec41dd49aac4955875de1aa2586e45b516349b0d6",
+          "review_status": "candidate_pending_user_review"
+        }
+      ],
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/reviewed-20261017/31a56972c139de3b65ed4690c153a57dd87311c4a9cea5d6dcadae3eced0f296.mp4",
+        "after": "media/cases-20261015/cases/i2v_piq_0019/final.mp4",
+        "before_poster": "media/reviewed-20261017/edd5909d4184cdb24c7d8df2e2db4edd874780b17068df2951f87713d7b291ae.jpg",
+        "after_poster": "media/reviewed-20261017/ebb42b8e817e746e660f676731a6d07470fff69011154b822e4a80e5ddfeb09b.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Exact website task text and actual image-to-video input image; no simulator guide or reference video.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "task_id": "cgt-20261016013936-28s25",
+          "seed": 2026101609,
+          "sha256": "31a56972c139de3b65ed4690c153a57dd87311c4a9cea5d6dcadae3eced0f296",
+          "review_status": "user_kept",
+          "playback_sha256": "31a56972c139de3b65ed4690c153a57dd87311c4a9cea5d6dcadae3eced0f296"
+        }
+      },
+      "input_image": {
+        "image": "media/cases-20261015/cases/i2v_piq_0019/input.jpg"
+      }
     },
     {
       "case_id": "repair_support",
       "category": "video_repair",
       "title": "Support loss without hovering",
-      "prompt": "The only reference video is the immutable temporal and geometric backbone. Preserve its camera, duration, frame cadence, object trajectories, support-loss timing, progressive upper-pair tilt, falling acceleration, collisions, and final poses frame by frame. Do not reconstruct motion from the reference images and do not copy their erroneous later states. Use the two reference images only as an appearance sheet: transform the UE industrial scene into the same clean white tabletop studio, soft gray background, lighting, shadows, framing, scale, matte colored wooden blocks, and realistic right hand shown in the images. Replace the moving white UE proxy with the same yellow middle block and a natural right hand pulling it toward frame-right, while keeping the proxy's exact UE trajectory. From top to bottom at the start there are exactly five persistent rigid blocks: one blue, one green, one yellow, one orange, and one red. The green-blue upper pair must begin tilting continuously while the yellow block is still partly under it, then continue directly into the UE-guided fall without hovering, reset, teleportation, dissolve, or double exposure. At every frame and especially the final frame, retain exactly those five whole blocks with fixed colors and identities; never add, remove, duplicate, split, merge, recolor, substitute, or hide a block. One continuous fixed-camera shot only: no cut, transition, zoom, reframing, mirroring, or scene change. If appearance conflicts with the reference-video motion or exact-five identity conservation, preserve the reference-video motion and all five identities.",
       "prompt_english": "Remove the yellow middle support from a five-block stack. The upper pair should tilt and descend as support is lost, while all five blocks remain present.",
       "method": "Whole-shot UE-guided regeneration; historical proxy-line cleanup",
       "delivery_tier": "core12",
       "duration_s": 5.041667,
-      "source": {
-        "source_case_id": "R_C10",
-        "provider": "ark_seedance",
-        "model": "ep-20260805223817-8b4zv",
-        "provider_task_id": "cgt-20260830150452-m2jfg"
-      },
+      "prompt": "Remove the yellow middle support from a five-block stack. The upper pair should tilt and descend as support is lost, while all five blocks remain present.",
       "video": "media/cases-20261015/cases/repair_support/final.mp4",
-      "poster": "media/cases-20261015/cases/repair_support/comparison/after_poster_web2.jpg",
+      "poster": "media/reviewed-20261017/0f9fdfd19e780154ef32838433b63462c5a44d0b128f0c09f6fe2e897361f1e6.jpg",
+      "source": {
+        "model": "ep-20260805223817-8b4zv",
+        "task_id": "cgt-20260830150452-m2jfg",
+        "sha256": "38119c2eaf0375a009e93577ca923e85665c844d941b2773e6d3b9e943f7432b",
+        "review_status": "user_kept"
+      },
       "views": [],
-      "input_image": null,
       "comparison": {
-        "title": "Direct model repair vs. PhysLoop",
-        "description": "The direct repair changes the block count, including a duplicated blue block.",
+        "title": "Direct model generation vs. PhysLoop",
         "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
         "before_label": "H3 (direct repair)",
         "after_label": "PhysLoop",
-        "input_protocol_before": "Direct video-model repair without a simulator motion guide",
-        "input_protocol_after": "Simulator-guided repair with Seedance refinement",
-        "time_aligned": false,
         "before": "media/cases-20261015-revision/repair_support/comparison/direct_h3.mp4",
         "after": "media/cases-20261015/cases/repair_support/final.mp4",
         "before_poster": "media/cases-20261015-revision/repair_support/comparison/direct_h3.jpg",
-        "after_poster": "media/cases-20261015/cases/repair_support/comparison/after_poster_web2.jpg",
+        "after_poster": "media/reviewed-20261017/0f9fdfd19e780154ef32838433b63462c5a44d0b128f0c09f6fe2e897361f1e6.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Direct video-model repair without a simulator motion guide",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
         "baseline_source": {
           "model": "H3",
-          "source_case_id": "R_C10",
-          "source_sha256": "2bd2407de025850b3da9c7e8f4d390e89d36afc3c3d92908baae984c70ddcbfb",
-          "qualification": "failure_negative"
+          "task_id": null,
+          "seed": null,
+          "sha256": "2bd2407de025850b3da9c7e8f4d390e89d36afc3c3d92908baae984c70ddcbfb",
+          "review_status": "user_kept",
+          "playback_sha256": "2bd2407de025850b3da9c7e8f4d390e89d36afc3c3d92908baae984c70ddcbfb"
         }
       },
       "original": {
@@ -517,45 +844,44 @@
       "case_id": "repair_glass",
       "category": "video_repair",
       "title": "Three glass impacts and falling shards",
-      "prompt": "Repair the glass impact shot. The VIDEO is the only motion reference; the IMAGE only specifies the original steel ball, three glass panels, labels 1 2 3, dark blue laboratory appearance and camera. Preserve the video sequence of one steel ball contacting three separate initially intact glass panels from left to right. Each panel fractures only on impact, with actual solid shards falling downward and settling on the solid floor. Keep one persistent ball and exactly three initial panels. Preserve each reference collision, slower post-impact ball motion, gravity and final resting shards; never add a flying second ball, teleport, reverse motion, make shards hover, create powder or liquid, or repair broken glass. Restore photorealistic glass edge highlights and visible panel labels on the original dark blue set, with bright soft frontal fill so both the ball and all shards stay visible. Keep the complete motion from the initial state through all three impacts to the final floor state in one continuous fixed-camera wide shot, without cuts, zoom, new events, object deletion or repeated action. Whole-shot regeneration; preserve the reference mechanism and do not reproduce the source video error.",
       "prompt_english": "One steel ball hits three intact glass panels in order. Contact releases shards that fall and settle on the floor.",
       "method": "UE guide + source image → whole-shot regeneration",
       "delivery_tier": "core12",
       "duration_s": 5.041667,
-      "source": {
-        "source_case_id": "R_C08",
-        "provider": "Ark Seedance",
-        "model": "doubao-seedance-2-5-260628",
-        "provider_task_id": "cgt-20261015202417-5ajc6"
-      },
+      "prompt": "One steel ball hits three intact glass panels in order. Contact releases shards that fall and settle on the floor.",
       "video": "media/cases-20261015/cases/repair_glass/final.mp4",
-      "poster": "media/cases-20261015/cases/repair_glass/comparison/after_poster_web2.jpg",
-      "views": [],
-      "input_image": {
-        "image": "media/cases-20261015/cases/repair_glass/inputs/condition_1.png",
-        "kind": "actual_source_reference_image",
-        "role": "Actual appearance-reference image from the source setup supplied to whole-shot regeneration; not extracted from the generated result.",
-        "sha256": "cf47ec0f8e16051819b9076ecfc3e6645c153258ee86cef91cbc93789995db2b"
+      "poster": "media/reviewed-20261017/eaf7ab9a0792f1711d23f051de36e6e6006e9db478ca109574e1516a1f936024.jpg",
+      "source": {
+        "model": "doubao-seedance-2-5-260628",
+        "task_id": "cgt-20261015202417-5ajc6",
+        "sha256": "b96044aa659860af3aa9f81cd84991ec93789ea0f9839050eea647745115ca23",
+        "review_status": "user_kept"
       },
+      "views": [],
       "comparison": {
-        "title": "Direct model repair vs. PhysLoop",
-        "description": "The direct repair does not recover the ordered impact and falling-fragment sequence.",
+        "title": "Direct model generation vs. PhysLoop",
         "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
         "before_label": "H3 (direct repair)",
         "after_label": "PhysLoop",
-        "input_protocol_before": "Direct video-model repair without a simulator motion guide",
-        "input_protocol_after": "Simulator-guided repair with Seedance refinement",
-        "time_aligned": false,
         "before": "media/cases-20261015-revision/repair_glass/comparison/direct_h3.mp4",
         "after": "media/cases-20261015/cases/repair_glass/final.mp4",
         "before_poster": "media/cases-20261015-revision/repair_glass/comparison/direct_h3.jpg",
-        "after_poster": "media/cases-20261015/cases/repair_glass/comparison/after_poster_web2.jpg",
+        "after_poster": "media/reviewed-20261017/eaf7ab9a0792f1711d23f051de36e6e6006e9db478ca109574e1516a1f936024.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Direct video-model repair without a simulator motion guide",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
         "baseline_source": {
           "model": "H3",
-          "source_case_id": "R_C08",
-          "source_sha256": "06d2b72f34fd7a6fd59faa9c190d75fa66a8683a0d9859fe6d5593833c8b57e7",
-          "qualification": "generated_failed_no_meaningful_repair"
+          "task_id": null,
+          "seed": null,
+          "sha256": "06d2b72f34fd7a6fd59faa9c190d75fa66a8683a0d9859fe6d5593833c8b57e7",
+          "review_status": "user_kept",
+          "playback_sha256": "06d2b72f34fd7a6fd59faa9c190d75fa66a8683a0d9859fe6d5593833c8b57e7"
         }
+      },
+      "input_image": {
+        "image": "media/cases-20261015/cases/repair_glass/inputs/condition_1.png"
       },
       "original": {
         "video": "media/cases-20261015/cases/repair_glass/comparison/before.mp4",
@@ -566,45 +892,45 @@
       "case_id": "repair_domino",
       "category": "video_repair",
       "title": "A domino chain stops at the gap",
-      "prompt": "Repair the domino chain reaction in the supplied SOURCE IMAGE. This exact image is the FIRST FRAME and fixes EVERY wooden block, its count, size and position. Keep the fixed camera and original white tabletop. The outer arrangement is an OPEN OVAL with a GAP at the right; inside is a DISCONNECTED inner ring. At 0.7 seconds, ONLY the block at the LOWER-LEFT OUTER BEND begins tipping TOWARD THE REAR-LEFT SIDE. Its nearest neighbor towards the BACK falls next, then falls proceed along the LEFT SIDE and REAR ARC clockwise toward the top-right end and STOP at the GAP. All blocks along the BOTTOM/FRONT HORIZONTAL ROW behind the starting piece remain perfectly UPRIGHT and STILL for the entire clip. Every block in the INNER RING also remains UPRIGHT and STILL throughout. No finger, hand or external push after the starting tilt. Make the propagation an unambiguous adjacent-contact chain; NEVER tip a disconnected block, cross a gap, make the whole outer loop fall, add connectors or change row spacing. Preserve all original blocks and the exact layout; no extra blocks. All toppled blocks stay visibly on top of the table, with gravity, stable contacts and no floor penetration or disappearance. Hold the final state for at least the last 0.8 seconds. One continuous real-time wide shot, no cuts or camera motion, no text or music.",
       "prompt_english": "A connected outer branch topples while the disconnected inner ring and most front blocks remain standing.",
       "method": "Source image + corrected causal event contract → whole-shot regeneration",
       "delivery_tier": "core12",
       "duration_s": 5.041667,
+      "prompt": "A connected outer branch topples while the disconnected inner ring and most front blocks remain standing.",
+      "video": "media/reviewed-20261017/485b11ce9415bfe8ba66c5d02d4b7b224c05f66264c928e04c1f20439d9e80a3.mp4",
+      "poster": "media/reviewed-20261017/5836f283768a6e73e89352ffb1a03a96a82abb6bd21bf50b198d9bf210f74a9c.jpg",
       "source": {
-        "source_case_id": "R_DOMINO_SOURCE_LAYOUT",
-        "provider": "Ark Seedance",
         "model": "doubao-seedance-2-5-260628",
-        "provider_task_id": "cgt-20261015203307-zt58n"
+        "provider": "Ark Seedance",
+        "task_id": "cgt-20261017040213-nu0jl",
+        "sha256": "485b11ce9415bfe8ba66c5d02d4b7b224c05f66264c928e04c1f20439d9e80a3",
+        "review_status": "candidate_pending_user_review"
       },
-      "video": "media/cases-20261015/cases/repair_domino/final.mp4",
-      "poster": "media/cases-20261015/cases/repair_domino/comparison/after_poster_web2.jpg",
       "views": [],
-      "input_image": {
-        "image": "media/cases-20261015/cases/repair_domino/inputs/condition_0.png",
-        "kind": "source_video_condition_image",
-        "role": "Actual source-video starting image supplied to whole-shot regeneration; not extracted from the generated result.",
-        "sha256": "a2c05d2a6e4d34fe96fb3d6500bf004233a365ab6a6b76466d470884edca3cb9"
-      },
       "comparison": {
-        "title": "Direct model repair vs. PhysLoop",
-        "description": "The direct repair does not preserve contact-dependent chain propagation.",
+        "title": "Direct model generation vs. PhysLoop",
         "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
         "before_label": "H3 (direct repair)",
         "after_label": "PhysLoop",
-        "input_protocol_before": "Direct video-model repair without a simulator motion guide",
-        "input_protocol_after": "Simulator-guided repair with Seedance refinement",
-        "time_aligned": false,
         "before": "media/cases-20261015-revision/repair_domino/comparison/direct_h3.mp4",
-        "after": "media/cases-20261015/cases/repair_domino/final.mp4",
+        "after": "media/reviewed-20261017/485b11ce9415bfe8ba66c5d02d4b7b224c05f66264c928e04c1f20439d9e80a3.mp4",
         "before_poster": "media/cases-20261015-revision/repair_domino/comparison/direct_h3.jpg",
-        "after_poster": "media/cases-20261015/cases/repair_domino/comparison/after_poster_web2.jpg",
+        "after_poster": "media/reviewed-20261017/5836f283768a6e73e89352ffb1a03a96a82abb6bd21bf50b198d9bf210f74a9c.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Direct video-model repair without a simulator motion guide",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
         "baseline_source": {
           "model": "H3",
-          "source_case_id": "R_DOMINO_SOURCE_LAYOUT",
-          "source_sha256": "f58b584245cc09ab49df135722d9e611aa879ae7933bbd251c3b0e54ac40254a",
-          "qualification": "failure_negative"
+          "task_id": null,
+          "seed": null,
+          "sha256": "f58b584245cc09ab49df135722d9e611aa879ae7933bbd251c3b0e54ac40254a",
+          "review_status": "user_kept",
+          "playback_sha256": "f58b584245cc09ab49df135722d9e611aa879ae7933bbd251c3b0e54ac40254a"
         }
+      },
+      "input_image": {
+        "image": "media/cases-20261015/cases/repair_domino/inputs/condition_0.png"
       },
       "original": {
         "video": "media/cases-20261015/cases/repair_domino/comparison/before.mp4",
@@ -615,96 +941,129 @@
       "case_id": "robot_parcel_sort",
       "category": "robot_interaction",
       "title": "Sort a labelled parcel",
-      "prompt": "以参考视频的机器人动作和布局为依据，生成真实仓库工作台上的固定视角写实视频。把三个彩色几何包裹替换为三个不透明的棕色瓦楞纸箱，纸箱具有真实纸板纤维、折痕、封口胶带和边角；每个纸箱顶部贴一张白色物流面单，面单上有黑色条码、二维码和小号印刷字段，贴纸贴合箱面并始终跟随同一纸箱，不漂浮、不闪烁。原红色目标改为带红色识别胶带的纸箱，原蓝色与黄色干扰物改为分别带蓝色与黄色识别胶带的纸箱。尺寸、数量、初始位置与参考一致，绿色分拣托盘保持原样。严格保留右机械臂抓取红色标记目标纸箱、抬起、放入绿色托盘、松爪的完整动作；两个干扰纸箱留在桌面。夹爪接触牢固，纸箱是刚体，不改变形状，不穿透夹爪、托盘或桌面。白色机械臂和黑色夹爪结构尽量沿用参考。改善照明、阴影、纸板与标签的真实质感。相机固定，不新增人物、包裹、字幕、场景剪辑或运镜。",
       "prompt_english": "Pick the red-marked shipping carton and place it in the green tray, retaining the two distractor cartons.",
       "method": "Native robot reference → appearance refinement",
       "delivery_tier": "core12",
       "duration_s": 11.041667,
-      "source": {
-        "provider": "Ark Seedance",
-        "model": "doubao-seedance-2-5-260628",
-        "provider_task_id": "cgt-20261012102039-bdvb2"
-      },
+      "prompt": "Pick the red-marked shipping carton and place it in the green tray, retaining the two distractor cartons.",
       "video": "media/cases-20261015/cases/robot_parcel_sort/final.mp4",
-      "poster": "media/cases-20261015/cases/robot_parcel_sort/poster.jpg",
+      "poster": "media/reviewed-20261017/699a4a9754e1a3e1f82961a8aa3d8f19dc975b5ceb5f078557f6d2e568ae686e.jpg",
+      "source": {
+        "model": "doubao-seedance-2-5-260628",
+        "task_id": "cgt-20261012102039-bdvb2",
+        "sha256": "deaba9a08c8211268c9861d35c78f7436e0db7cf35e7e31b1ecda1f0f2dfba93",
+        "review_status": "user_kept"
+      },
       "views": [],
-      "input_image": null,
-      "comparison": null
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/reviewed-20261017/9a58e31feedec821fc008ab79d62e67ba67bed3100b71f63535c1733b7237b85.mp4",
+        "after": "media/cases-20261015/cases/robot_parcel_sort/final.mp4",
+        "before_poster": "media/reviewed-20261017/e8bb5b480791d92d71abd2f3528051bd63122743fa285ed3a07b163abcefd058.jpg",
+        "after_poster": "media/reviewed-20261017/699a4a9754e1a3e1f82961a8aa3d8f19dc975b5ceb5f078557f6d2e568ae686e.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Qualitative comparison initialized from frame0 of the selected website main video. This is a new display comparison, not an original benchmark input. No future frames, simulator guide or reference video.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "task_id": "cgt-20261016013948-zxhrs",
+          "seed": 2026101610,
+          "sha256": "9a58e31feedec821fc008ab79d62e67ba67bed3100b71f63535c1733b7237b85",
+          "review_status": "user_kept",
+          "playback_sha256": "9a58e31feedec821fc008ab79d62e67ba67bed3100b71f63535c1733b7237b85"
+        }
+      }
     },
     {
       "case_id": "robot_water_pour",
       "category": "robot_interaction",
       "title": "Robot pours clear water",
-      "prompt": "以给定场景为首帧，生成连续12秒、固定视角的真实机器人倒清水视频。棕色杯内装的是无色透明的清水，能够透过水看到棕色杯底与内壁，只有液面细小波纹、边缘高光和真实折射；不能出现蓝色填充、蓝色圆盘、乳白液体或不透明水面。两个杯子仍是不透明实体。右机械臂进入画面，牢固抓住棕色杯，先提起，再将杯口移动到白色接收杯正上方。缓慢倾斜，倒出一股连续、清澈透明的水流，透过水流仍能看到背景，水流有细微高光和折射，进入白杯后有涟漪，杯内透明液面逐渐上升；白杯内壁与底部仍能透过水看到。最后扶正棕杯停止水流并略微抬开，两个杯子均保留，白杯中留下可见的透明水与反光液面。保持杯子尺寸、颜色和数量、双机械臂与黑色夹爪结构及台面布局，夹爪和杯子不能穿透，水流只从倾斜杯口流出，不凭空冒水。不要新增蓝色物体、冰块、颗粒、人、字幕、切镜或运镜。",
       "prompt_english": "Grasp and lift the yellow mug, tilt it over the receiving mug, pour a continuous stream, then upright and withdraw.",
       "method": "Image-conditioned synthesis",
       "delivery_tier": "core12",
       "duration_s": 12.041667,
-      "source": {
-        "provider": "Ark Seedance",
-        "model": "doubao-seedance-2-5-260628",
-        "provider_task_id": "cgt-20261012102104-x5slm"
-      },
+      "prompt": "Grasp and lift the yellow mug, tilt it over the receiving mug, pour a continuous stream, then upright and withdraw.",
       "video": "media/cases-20261015/cases/robot_water_pour/final.mp4",
-      "poster": "media/cases-20261015/cases/robot_water_pour/poster.jpg",
-      "views": [],
-      "input_image": {
-        "image": "media/cases-20261015/cases/robot_water_pour/input.png",
-        "kind": "actual_condition_image",
-        "role": "Actual first-frame input used by the accepted revision.",
-        "sha256": "968818e194c4c743af2d7e721dff73f37aff3f6411fee9cbc17cdb4ef81dac27"
+      "poster": "media/reviewed-20261017/76da237af5d9d12751a3201cca9d38fd7b43d381dca16c273a4016e35c4db32c.jpg",
+      "source": {
+        "model": "doubao-seedance-2-5-260628",
+        "task_id": "cgt-20261012102104-x5slm",
+        "sha256": "273681b773ba59ad98d8cdb4c91e07b9d12d313ee809b0cf4d01cc26bba91e31",
+        "review_status": "user_kept"
       },
-      "comparison": null
+      "views": [],
+      "comparison": {
+        "title": "Direct model generation vs. PhysLoop",
+        "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
+        "before_label": "Seedance 2.0 Fast (direct)",
+        "after_label": "PhysLoop",
+        "before": "media/reviewed-20261017/10935535835163ba51aee7f8f3741fa9c7d2e18e9f6304fe9d561ebee1c038c0.mp4",
+        "after": "media/cases-20261015/cases/robot_water_pour/final.mp4",
+        "before_poster": "media/reviewed-20261017/fa4951b4b03f3b8fc9783daa31beb5a638484693354c5c68a50bcc5eb0a8b6bb.jpg",
+        "after_poster": "media/reviewed-20261017/76da237af5d9d12751a3201cca9d38fd7b43d381dca16c273a4016e35c4db32c.jpg",
+        "time_aligned": false,
+        "input_protocol_before": "Qualitative comparison initialized from frame0 of the selected website main video. This is a new display comparison, not an original benchmark input. No future frames, simulator guide or reference video.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
+        "baseline_source": {
+          "model": "doubao-seedance-2-0-fast-260128",
+          "task_id": "cgt-20261016013947-6h6sx",
+          "seed": 2026101611,
+          "sha256": "10935535835163ba51aee7f8f3741fa9c7d2e18e9f6304fe9d561ebee1c038c0",
+          "review_status": "user_kept",
+          "playback_sha256": "10935535835163ba51aee7f8f3741fa9c7d2e18e9f6304fe9d561ebee1c038c0"
+        }
+      },
+      "input_image": {
+        "image": "media/cases-20261015/cases/robot_water_pour/input.png"
+      }
     },
     {
       "case_id": "robot_towel_fold",
       "category": "robot_interaction",
       "title": "Robot folds an opaque towel",
-      "prompt": "One thick opaque pink terry-cotton towel on a solid white laboratory table, two black robot grippers. Preserve the supplied initial image, material and fixed new oblique camera. The grippers approach the two far/back corners, pinch the corners, lift that entire edge visibly off the table, move it forward over the middle of the towel, and lower it over the front half to make one clear half-fold. The towel bends and drapes continuously; it never becomes a rigid sheet, tears, duplicates or passes through itself or the grippers. The grippers release the folded edge and retract so the smaller doubled-layer footprint is visible. Dense thick pink cotton stays FULLY OPAQUE and blocks all light: no underlying robot silhouettes, no dark printed robot shapes, no transparency. Use nearly shadowless broad diffuse studio light. Complete approach, grasp, lift, fold, release and a one-second terminal hold in one continuous eight-second shot. No camera motion, cuts, text or music.",
       "prompt_english": "Two grippers grasp the back corners of one thick pink cotton towel, lift, fold it in half, release and retract.",
       "method": "Generated opaque-material starting image → image-conditioned robot interaction",
       "delivery_tier": "core12",
       "duration_s": 8.041667,
-      "source": {
-        "provider": "Ark Seedance",
-        "model": "doubao-seedance-2-5-260628",
-        "provider_task_id": "cgt-20261015204044-mgkbg"
-      },
+      "prompt": "Two grippers grasp the back corners of one thick pink cotton towel, lift, fold it in half, release and retract.",
       "video": "media/cases-20261015/cases/robot_towel_fold/final.mp4",
-      "poster": "media/cases-20261015/cases/robot_towel_fold/poster.jpg",
-      "views": [],
-      "input_image": {
-        "image": "media/cases-20261015/cases/robot_towel_fold/input.png",
-        "kind": "generated_condition_image",
-        "role": "Actual generated starting image used for this video; derived from the existing towel scene with a dense opaque-cotton material revision.",
-        "sha256": "5a6584e2a282e7fd91c0f0d831233bec3ea374b309ba064176b1b760086c2f2d"
+      "poster": "media/reviewed-20261017/3f8e59e4df4b107cf07a4a16a6d10017e860ccd563a99e54a401c11e6aead51c.jpg",
+      "source": {
+        "model": "doubao-seedance-2-5-260628",
+        "task_id": "cgt-20261015204044-mgkbg",
+        "sha256": "5ae7d0cea9eb55e26299131617dde4f3db5e2a4889799b7bf40d1b19f08def28",
+        "review_status": "user_kept"
       },
+      "views": [],
       "comparison": {
         "title": "Direct model generation vs. PhysLoop",
-        "description": "Both sides fold toward the center instead of performing the requested single half-fold. Qualitatively selected example; this is not an error-rate estimate.",
         "type": "direct_model_comparison",
+        "description": "Direct model output compared with the simulator-guided PhysLoop result. Qualitative examples; event timing may differ.",
         "before_label": "Seedance 2.0 Fast (direct)",
         "after_label": "PhysLoop",
         "before": "media/comparisons-sd20-fast-20261016/robot_towel_fold/direct.mp4",
         "after": "media/cases-20261015/cases/robot_towel_fold/final.mp4",
         "before_poster": "media/comparisons-sd20-fast-20261016/robot_towel_fold/direct.jpg",
-        "after_poster": "media/cases-20261015/cases/robot_towel_fold/poster.jpg",
+        "after_poster": "media/reviewed-20261017/3f8e59e4df4b107cf07a4a16a6d10017e860ccd563a99e54a401c11e6aead51c.jpg",
         "time_aligned": false,
         "input_protocol_before": "Qualitative comparison initialized from frame0 of the selected website main video. This is a new display comparison, not an original benchmark input. No future frames, simulator guide or reference video.",
-        "input_protocol_after": "Selected PhysLoop result with simulator guidance and Seedance refinement. Independent timeline.",
+        "input_protocol_after": "Simulator-guided result with appearance refinement. Independently generated comparison timeline.",
         "baseline_source": {
           "model": "doubao-seedance-2-0-fast-260128",
-          "provider_task_id": "cgt-20261016013947-4gp85",
-          "source_sha256": "cbda080f51c1c4b19bc5dedc25be770d26a0fd5c12b4505a42faaf43215db549",
+          "task_id": "cgt-20261016013947-4gp85",
           "seed": 2026101612,
-          "prompt": "Two grippers grasp the back corners of one thick pink cotton towel, lift, fold it in half, release and retract.",
-          "sampling": "One predeclared initial sample per case; two robot actor-clarification samples retained separately.",
-          "error_kind": "task_completion",
-          "evidence_interval_s": [
-            2.0,
-            8.0
-          ]
+          "sha256": "cbda080f51c1c4b19bc5dedc25be770d26a0fd5c12b4505a42faaf43215db549",
+          "review_status": "user_kept",
+          "playback_sha256": "cbda080f51c1c4b19bc5dedc25be770d26a0fd5c12b4505a42faaf43215db549"
         }
+      },
+      "input_image": {
+        "image": "media/cases-20261015/cases/robot_towel_fold/input.png"
       }
     }
   ]
