@@ -73,6 +73,53 @@
       }
     },
     {
+      "case_id": "t2v_tennis_basket",
+      "category": "text_to_video",
+      "title": "Tennis balls into a basket",
+      "prompt_english": "Four tennis balls are thrown toward an open wire basket. The first misses; the last pair collide, leaving three balls in the basket.",
+      "method": "UE-guided Seedance result with generated camera refinements",
+      "delivery_tier": "website_selection",
+      "duration_s": 6.041667,
+      "video": "media/tennis-basket-20261018/front.mp4",
+      "poster": "media/tennis-basket-20261018/front.jpg",
+      "source": {
+        "model": "doubao-seedance-2-5-260628",
+        "task_id": "cgt-20261018024224-faxlx",
+        "sha256": "78009f8a4650a4ec815c015bcc5792c1d0c0a654a3ae3c57431c5e34572e1651",
+        "review_status": "agent_visual_screen_pass"
+      },
+      "views": [
+        {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/tennis-basket-20261018/side.mp4",
+          "poster": "media/tennis-basket-20261018/side.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261018025631-5a4op",
+          "source_sha256": "991b078d3e8e32e796233f4be03de50497a0c2307b4c50cf5d4f83ce95e7274d",
+          "playback_sha256": "c414e85be167ba6d4d0d94c0dd7b0eb3fa8a732595d0169cb9a4a7eb8bb2af0c",
+          "review_status": "agent_visual_screen_pass",
+          "view_provenance": "four user-selected generated companion stills from 2026-10-15 plus selected SD main motion; generated side video, not native synchronized view",
+          "time_aligned": false
+        },
+        {
+          "label": "Top view",
+          "camera": "top",
+          "video": "media/tennis-basket-20261018/top.mp4",
+          "poster": "media/tennis-basket-20261018/top.jpg",
+          "model": "doubao-seedance-2-5-260628",
+          "provider_task_id": "cgt-20261018024302-vtomj",
+          "source_sha256": "8b06b18360a132c8a329ce293a67f6b1c680c541d2698fae984a3fee228f4291",
+          "playback_sha256": "3bfa85eea743ea347852c26a78f34a866aa4e5ca1aa009af3c182ecadff37366",
+          "review_status": "agent_visual_screen_pass",
+          "view_provenance": "generated from same selected main SD video; not native synchronized cameras",
+          "time_aligned": false
+        }
+      ],
+      "comparison": null,
+      "prompt": "Four tennis balls are thrown toward an open wire basket. The first misses; the last pair collide, leaving three balls in the basket."
+    },
+    {
       "case_id": "t2v_paper_domino",
       "category": "text_to_video",
       "title": "Domino chain",
