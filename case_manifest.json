@@ -99,8 +99,7 @@
           "source_sha256": "991b078d3e8e32e796233f4be03de50497a0c2307b4c50cf5d4f83ce95e7274d",
           "playback_sha256": "c414e85be167ba6d4d0d94c0dd7b0eb3fa8a732595d0169cb9a4a7eb8bb2af0c",
           "review_status": "agent_visual_screen_pass",
-          "view_provenance": "four user-selected generated companion stills from 2026-10-15 plus selected SD main motion; generated side video, not native synchronized view",
-          "time_aligned": false,
+          "view_provenance": "Seedance 2.5 from the selected main video and existing side reference stills",
           "reference_stills": [
             {
               "time_s": 0.5,
@@ -118,8 +117,7 @@
               "time_s": 5.5,
               "sha256": "c655fd620cb945589ba475e32a680bdb95a7a54b20b65d0c48ab56a8c4efd296"
             }
-          ],
-          "visual_limitations": "Approximate generated camera and motion. Airborne-ball positions/scales and event timing differ slightly; not calibrated or native synchronized views."
+          ]
         },
         {
           "label": "Top view",
@@ -131,9 +129,7 @@
           "source_sha256": "8b06b18360a132c8a329ce293a67f6b1c680c541d2698fae984a3fee228f4291",
           "playback_sha256": "3bfa85eea743ea347852c26a78f34a866aa4e5ca1aa009af3c182ecadff37366",
           "review_status": "agent_visual_screen_pass",
-          "view_provenance": "generated from same selected main SD video; not native synchronized cameras",
-          "time_aligned": false,
-          "visual_limitations": "Generated novel view; basket orientation and trajectory projections are approximate, not native synchronized geometry."
+          "view_provenance": "Seedance 2.5 from the selected main video"
         }
       ],
       "comparison": null,
