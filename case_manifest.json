@@ -238,7 +238,7 @@
           "provider_task_id": "cgt-20261017153819-pqmdb",
           "source_sha256": "7bbf82315805e8adcf576203a5fca3dcafc9dac96c43d1215ff46ced8c15f74f",
           "playback_sha256": "680b5aeeb72437c33caa2acdd95e760cfe6f27ccecbf0541d156fea73977aa50",
-          "review_status": "candidate_pending_user_review"
+          "review_status": "user_kept"
         }
       ],
       "comparison": {
