@@ -1,0 +1,16 @@
+[
+  {
+    "case_id": "i2v_piq_0019",
+    "camera": "side",
+    "video": "refinement-inputs-20261017/58662177cfd9bd972462ac927000ae20aacf4b0ef009b8a8581eb59c6cd9c213.mp4",
+    "sha256": "58662177cfd9bd972462ac927000ae20aacf4b0ef009b8a8581eb59c6cd9c213",
+    "purpose": "Showcase-only UE Chaos motion reconstruction followed by disclosed presentation slow motion; not benchmark evidence."
+  },
+  {
+    "case_id": "i2v_piq_0019",
+    "camera": "top",
+    "video": "refinement-inputs-20261017/b9b90bd22364beb66aca7f26408e409e131180cf96ab1468aed2550024bac34c.mp4",
+    "sha256": "b9b90bd22364beb66aca7f26408e409e131180cf96ab1468aed2550024bac34c",
+    "purpose": "Showcase-only UE Chaos motion reconstruction followed by disclosed presentation slow motion; not benchmark evidence."
+  }
+]
