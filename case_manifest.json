@@ -90,6 +90,17 @@
       },
       "views": [
         {
+          "label": "Side view",
+          "camera": "side",
+          "video": "media/tennis-basket-20261018/side-user-selected-20261018.mp4",
+          "poster": "media/tennis-basket-20261018/side-user-selected-20261018.jpg",
+          "duration_s": 6.016667,
+          "source_sha256": "95ae8ac0f504c596f7ee7c2ed9a2e40019ad8496f8c1beed1b42914d24f9e5e0",
+          "playback_sha256": "11a30b6dffdd0023bd7aea966055c11628a58c1c7766b4f5ce0e33d06b540745",
+          "review_status": "user_selected",
+          "view_provenance": "User-selected video; audio removed without re-encoding"
+        },
+        {
           "label": "Top view",
           "camera": "top",
           "video": "media/tennis-basket-20261018/top.mp4",
