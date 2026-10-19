@@ -70,7 +70,9 @@
           "review_status": "user_kept",
           "playback_sha256": "718592e6a1051e650e3e05f6d9461750f333f12e2a688d607f66b14078e90840"
         }
-      }
+      },
+      "title_zh": "台球开球",
+      "prompt_zh": "一颗母球撞向由十五颗球组成的三角球阵，球群散开，并在碰到台边后反弹。"
     },
     {
       "case_id": "t2v_tennis_basket",
@@ -114,7 +116,9 @@
         }
       ],
       "comparison": null,
-      "prompt": "Four tennis balls are thrown toward an open wire basket. The first misses; the last pair collide, leaving three balls in the basket."
+      "prompt": "Four tennis balls are thrown toward an open wire basket. The first misses; the last pair collide, leaving three balls in the basket.",
+      "title_zh": "网球投进篮筐",
+      "prompt_zh": "四颗网球被抛向敞口金属篮筐。第一颗未投中，最后两颗在空中相撞，最终有三颗球留在篮中。"
     },
     {
       "case_id": "t2v_paper_domino",
@@ -178,7 +182,9 @@
           "review_status": "user_kept",
           "playback_sha256": "c90d98b4ed16f2dbadc845bfafb8012ec3e86d1c7c50748c4f9dab80f3cda4c5"
         }
-      }
+      },
+      "title_zh": "骨牌连锁倒下",
+      "prompt_zh": "S 形排列的骨牌依次倒下，并撞倒末端的摆件。"
     },
     {
       "case_id": "t2v_wave_connected",
@@ -242,7 +248,9 @@
           "review_status": "user_kept",
           "playback_sha256": "61441f3fe3b3d956e4e9cf4f66595c7cdeb68e9e8971e9f1a9a2ebd6fb67f942"
         }
-      }
+      },
+      "title_zh": "摆球相位波",
+      "prompt_zh": "十五个悬挂的彩色摆球以不同的固有周期摆动，形成可见的相位波，并保持支架连接和各摆球的身份一致。"
     },
     {
       "case_id": "t2v_box_balance",
@@ -306,7 +314,9 @@
           "review_status": "user_kept",
           "playback_sha256": "89f61c1f391ad5167822f11db3d4b3cfbc57e887c2e8f4833b5c32d9bbb1c4fa"
         }
-      }
+      },
+      "title_zh": "对齐与错位的纸箱堆叠",
+      "prompt_zh": "在木制平台上同时释放两组各含五个开口纸箱的堆叠，一组对齐，一组错位，由重力与接触决定哪组能够保持稳定。"
     },
     {
       "case_id": "t2v_c012",
@@ -370,7 +380,9 @@
           "review_status": "user_kept",
           "playback_sha256": "ac9c6ca5394c29f2e9dc435686a4195a6992495452c96fd82b5939f8b1bacd59"
         }
-      }
+      },
+      "title_zh": "布料覆盖的堆叠倒塌",
+      "prompt_zh": "马蹄形磁铁抽走覆盖着布料的堆叠底部钢块。堆叠倒塌，布料随之滑落并在桌面上稳定下来。"
     },
     {
       "case_id": "t2v_i001",
@@ -434,7 +446,9 @@
           "review_status": "user_kept",
           "playback_sha256": "7d2220a26d7f72ab6093d1b2d51b006a36d67ffc6de340d24152290e8789715c"
         }
-      }
+      },
+      "title_zh": "球—骨牌—跷跷板连锁反应",
+      "prompt_zh": "红球沿木制斜坡滚下，推倒六块骨牌，并触发跷跷板，将蓝球弹向一个小桶。"
     },
     {
       "case_id": "i2v_paper_paddle",
@@ -502,7 +516,9 @@
       },
       "input_image": {
         "image": "media/cases-20261015-revision/i2v_paper_paddle/input.png"
-      }
+      },
+      "title_zh": "叶轮连锁反应",
+      "prompt_zh": "下落的球推动叶轮转动，释放第二颗球，使其沿斜坡滚入篮筐。"
     },
     {
       "case_id": "i2v_piq_0157",
@@ -569,7 +585,9 @@
       },
       "input_image": {
         "image": "media/cases-20261015-revision/i2v_piq_0157/input.jpg"
-      }
+      },
+      "title_zh": "丝绸覆盖茶壶",
+      "prompt_zh": "一块丝绸落在茶壶上，并贴合壶身的形状。"
     },
     {
       "case_id": "i2v_piq_0064",
@@ -636,7 +654,9 @@
       },
       "input_image": {
         "image": "media/cases-20261015-revision/i2v_piq_0064/input.jpg"
-      }
+      },
+      "title_zh": "倒出红色饮料",
+      "prompt_zh": "饮料分配器将红色液体倒入透明玻璃杯。"
     },
     {
       "case_id": "i2v_piq_0031",
@@ -703,7 +723,9 @@
       },
       "input_image": {
         "image": "media/cases-20261015-revision/i2v_piq_0031/input.jpg"
-      }
+      },
+      "title_zh": "两颗网球碰撞",
+      "prompt_zh": "蓝球和黄球从两侧相对的管道中滚出，相遇碰撞后分开。"
     },
     {
       "case_id": "i2v_piq_0007",
@@ -770,7 +792,9 @@
       },
       "input_image": {
         "image": "media/cases-20261015/cases/i2v_piq_0007/input.jpg"
-      }
+      },
+      "title_zh": "网球撞击橡皮鸭",
+      "prompt_zh": "棕色网球从黑色管道中滚出，并撞上茶几上的黄色橡皮鸭。"
     },
     {
       "case_id": "i2v_piq_0019",
@@ -837,7 +861,9 @@
       },
       "input_image": {
         "image": "media/cases-20261015/cases/i2v_piq_0019/input.jpg"
-      }
+      },
+      "title_zh": "网球爬上斜坡",
+      "prompt_zh": "黄色网球从黑色管道中滚出，并爬上由蓝色方块支撑的纸板斜坡。"
     },
     {
       "case_id": "repair_support",
@@ -882,7 +908,9 @@
       "original": {
         "video": "media/cases-20261015/cases/repair_support/comparison/before.mp4",
         "poster": "media/cases-20261015/cases/repair_support/comparison/before_poster_web2.jpg"
-      }
+      },
+      "title_zh": "移除支撑后自然下落",
+      "prompt_zh": "从五块积木组成的堆叠中移除中间的黄色支撑块。上方两块积木应随支撑消失而倾斜下落，五块积木均应保持存在。"
     },
     {
       "case_id": "repair_glass",
@@ -930,7 +958,9 @@
       "original": {
         "video": "media/cases-20261015/cases/repair_glass/comparison/before.mp4",
         "poster": "media/cases-20261015/cases/repair_glass/comparison/before_poster_web2.jpg"
-      }
+      },
+      "title_zh": "连续撞碎三块玻璃",
+      "prompt_zh": "一颗钢球依次撞击三块完整玻璃板，碰撞释放的碎片随即下落，并最终停留在地面上。"
     },
     {
       "case_id": "repair_domino",
@@ -979,7 +1009,9 @@
       "original": {
         "video": "media/cases-20261015/cases/repair_domino/comparison/before.mp4",
         "poster": "media/cases-20261015/cases/repair_domino/comparison/before_poster_web2.jpg"
-      }
+      },
+      "title_zh": "骨牌链在缺口处停止",
+      "prompt_zh": "相互连接的外侧骨牌分支依次倒下，与其断开的内环和前方大多数骨牌保持站立。"
     },
     {
       "case_id": "robot_parcel_sort",
@@ -1020,7 +1052,9 @@
           "review_status": "user_kept",
           "playback_sha256": "9a58e31feedec821fc008ab79d62e67ba67bed3100b71f63535c1733b7237b85"
         }
-      }
+      },
+      "title_zh": "分拣带标记的快递",
+      "prompt_zh": "抓取带红色标记的快递纸箱，放入绿色托盘，并保留另外两个干扰纸箱。"
     },
     {
       "case_id": "robot_water_pour",
@@ -1064,7 +1098,9 @@
       },
       "input_image": {
         "image": "media/cases-20261015/cases/robot_water_pour/input.png"
-      }
+      },
+      "title_zh": "机器人倒水",
+      "prompt_zh": "抓住并提起黄色杯子，将其倾斜至接水杯上方，倒出连续水流，再将杯子扶正并移开。"
     },
     {
       "case_id": "robot_towel_fold",
@@ -1108,7 +1144,9 @@
       },
       "input_image": {
         "image": "media/cases-20261015/cases/robot_towel_fold/input.png"
-      }
+      },
+      "title_zh": "机器人折叠毛巾",
+      "prompt_zh": "两个夹爪抓住一条厚实粉色棉毛巾的后侧两角，提起并对折，随后松开并撤回。"
     }
   ]
 }
